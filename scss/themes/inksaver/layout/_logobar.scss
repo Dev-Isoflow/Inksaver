@@ -1,0 +1,25 @@
+.logobar {
+  box-sizing: border-box;
+  height: 154px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .container {
+
+    .row {
+      .logo-contain {
+        height: 94px;
+        margin-bottom: 0;
+        border: solid 1px #dddddd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: auto;
+        }
+      }
+    }
+
+  }
+}

@@ -1,11 +1,11 @@
 // Inksaver Custom Utilities
-@import 'utilities/colours'; 
-@import 'utilities/typography'; 
+@import 'utilities/colours';
+@import 'utilities/typography';
 
 // ==========================================================================
 // Import Base Template Styles
 // ==========================================================================
-@import '../../styles'; 
+@import '../../styles';
 
 
 // ==========================================================================
@@ -15,5 +15,10 @@
 // layout
 
 
-@import 'layout/header'; 
-@import 'layout/carousel'; 
+@import 'layout/header';
+@import 'layout/logobar';
+@import 'layout/carousel';
+@import 'layout/product';
+@import 'layout/advertisement';
+@import 'layout/newsletter';
+@import 'layout/footer';

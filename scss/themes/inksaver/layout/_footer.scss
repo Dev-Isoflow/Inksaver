@@ -1,0 +1,53 @@
+.footer {
+  background-color: #323232;
+  color: white;
+
+  .payment-methods {
+    float: left;
+    margin-top: 37px;
+
+    li:after {
+      width: 0;
+    }
+  }
+}
+
+.footer-bottom {
+  background-color: rgba(0,0,0,0.1);
+  height: 101px;
+  text-align: left;
+
+  .container {
+
+    p {
+      color: #FFFFFF;
+    }
+  }
+
+  .footer-bottom-policies {
+    display: inline-block;
+    width: 229px;
+    float: right;
+
+    li {
+      display: inline;
+    }
+  }
+}
+
+.footer-title {
+  color: #ffffff;
+}
+
+ul.footer-list li a{
+  color: white;
+}
+
+.footer-social a .fa {
+  background-color: rgba(0,0,0,0.1);
+  color: #ffffff; /*Opacity is affecting this brightness*/
+
+  &:hover {
+    background-color: rgba(0,0,0,0.4);
+  }
+}

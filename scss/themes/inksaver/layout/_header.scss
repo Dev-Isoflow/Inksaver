@@ -1,0 +1,178 @@
+.header-a {
+  // height: 194px;
+}
+
+.header-a .account-lnk-sign-in:after {
+  width: 0;
+}
+ /* Styling for top bar */
+
+.header-a .top-bar {
+
+    background-color: #323232;
+    box-sizing: border-box;
+    height: 48px;
+
+    .container {
+      height: 100%;
+    }
+
+    .utils {
+      height: 100%;
+      font-size: 12px;
+
+    a {
+      height: 100%;
+      padding-top: 17px;
+      margin-right: 0;
+      padding-right: 16px;
+      padding-left: 18px;
+      color: #FFFFFF;
+      &:hover {
+
+      }
+      &:after {
+
+      }
+    }
+
+    a:hover {
+      background-color: #FFFFFF;
+      color: #575757;
+      transition: 0.25s;
+    }
+  }
+}
+
+/* Topbar Logged Out Account Buttons */
+
+.header-a .top-bar .account-dropdown {
+
+    font-size: 14px;
+
+    a {
+      color: #FFFFFF;
+      height: 48px;
+      box-sizing: border-box;
+      font-size: 14px;
+      font-family: 'ProximaBold', serif;
+    }
+
+    .account-lnk-sign-in {
+      padding-left: 30px;
+      padding-right: 29px;
+      color: #FFFFFF;
+    }
+
+    .account-lnk-register {
+      padding-left: 30px;
+      padding-right: 29px;
+      background-color: #CF0974;
+    }
+}
+
+/* Styling for mainbar */
+.header-a  .main-bar {
+
+    height: 100px;
+    position: relative;
+
+    .container {
+      padding-top: 5px;
+
+      .navbar-brand {
+        padding-top: 10px;
+      }
+    }
+    .main-bar-ctas {
+      height: 100%;
+      display: inline-block;
+      width: 79%;
+      vertical-align: middle;
+      float: right;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding-top: 19px;
+
+      .mini-search {
+        width: 285px;
+
+        button {
+          border: none;
+        }
+      }
+    }
+
+    .mini-cart {
+      float: none;
+    }
+
+    .mini-search {
+      float: none;
+      margin-top: 0px;
+      margin-left: 20px;
+    }
+}
+
+
+/* Styling for navbar */
+
+.header-a .navbar {
+
+    height: 44px;
+    min-height: 44px;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: right;
+    border-bottom: 0;
+
+    .container {
+      padding-right: 0;
+      height: 100%;
+
+      .navbar-ctas {
+        height: 100%;
+
+        #navbar {
+          height: 100% !important;
+
+          ul.nav.navbar-nav {
+            height: 100%;
+
+            li {
+              height: 100%;
+
+              a {
+                padding-top: 12px;
+                padding-bottom: 12px;
+              }
+            }
+          }
+
+
+        }
+      }
+    }
+
+
+    #sale {
+      font-family: "ProximaBold", serif;
+      color: #CF0974;
+    }
+}
+
+.header-a .navbar-nav > li {
+
+  a {
+    font-family: 'ProximaRegular', serif;
+    font-weight: 400; /* Ask Byron about this */
+  }
+
+  a:active {
+    font-family: "ProximaBold", serif; /*Need JavaScript to sustain bold*/
+  }
+
+}
