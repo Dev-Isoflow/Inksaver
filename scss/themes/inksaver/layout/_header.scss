@@ -23,10 +23,12 @@
 
     a {
       height: 100%;
-      padding-top: 17px;
+      // padding: 0 auto;
+      padding-top: 16px;
       margin-right: 0;
       padding-right: 16px;
       padding-left: 18px;
+
       color: #FFFFFF;
       &:hover {
 
@@ -74,11 +76,18 @@
 /* Styling for mainbar */
 .header-a  .main-bar {
 
-    height: 100px;
+    height: auto;
     position: relative;
+    padding-top: 6px;
+    padding-bottom: 17px;
+
 
     .container {
-      padding-top: 5px;
+
+      .mainbar-header {
+        width: 20%;
+        display: inline-block;
+      }
 
       .navbar-brand {
         padding-top: 10px;
@@ -87,16 +96,23 @@
     .main-bar-ctas {
       height: 100%;
       display: inline-block;
-      width: 79%;
+      width: auto;
       vertical-align: middle;
       float: right;
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      padding-top: 19px;
+      padding-top: 23px;
+      padding-right: 8px;
+
+      @media screen and (max-width: 992px) {
+
+          padding-right: 0px !important;
+      }
 
       .mini-search {
         width: 285px;
+        // padding-right: 8px;
 
         button {
           border: none;
@@ -129,15 +145,35 @@
     text-align: right;
     border-bottom: 0;
 
+
     .container {
-      padding-right: 0;
       height: 100%;
+
+      .navbar-toggle-contain {
+        width: auto !important;
+      }
 
       .navbar-ctas {
         height: 100%;
+        width: auto !important;
+        position: relative;
+
+        @media screen and (max-width: 992px) {
+          padding-left: 15px;
+          width: auto !important;
+          position: absolute;
+          right: 15px;
+        }
 
         #navbar {
-          height: 100% !important;
+          height: auto !important;
+          padding-right: 0px;
+
+          @media screen and (max-width: 992px) {
+            padding-right: 15px;
+            background-color: rgba(255,255,255,0.96);
+
+          }
 
           ul.nav.navbar-nav {
             height: 100%;
@@ -151,8 +187,6 @@
               }
             }
           }
-
-
         }
       }
     }
@@ -173,6 +207,27 @@
 
   a:active {
     font-family: "ProximaBold", serif; /*Need JavaScript to sustain bold*/
+  }
+}
+
+@media screen and (max-width: 680px) {
+
+  .main-bar .container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mainbar-header {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mini-search {
+    margin-left: 20px !important
   }
 
 }
