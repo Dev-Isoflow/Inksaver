@@ -1,0 +1,147 @@
+
+// 'ink & toner' navbar menu
+
+.inkandtoner-menu.dropdown-menu {
+  left: 30% !important;
+  width: 50% !important;
+}
+
+// 'cleaning materials' navbar menu
+
+.cleaningmaterials-menu.dropdown-menu {
+  left: 55% !important;
+  width: 30%;
+}
+
+// 'technical' navbar menu
+
+.technical-menu.dropdown-menu {
+  left: 80% !important;
+  width: 20%;
+}
+
+// 'stationary' navbar menu
+
+.stationary-menu.dropdown-menu {
+  left: 40% !important;
+  width: 50%;
+}
+
+// general navbar menu styling
+
+.mega-menu-expand {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  a {
+    padding: 0 !important;
+  }
+
+  h2 {
+    color: #0fa0da;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    border: solid 2px #0fa0da;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    i {
+      padding-left: 5px;
+    }
+  }
+}
+
+.dropdown-menu li {
+    margin: 0 6px;
+}
+
+.mega-menu-title {
+
+  h2 {
+    font-size: 16px;
+    color: #575757;
+  }
+}
+
+.mega-menu-content {
+  padding-bottom: 30px !important;
+}
+
+.mega-menu-list {
+  font-size: 16px;
+  line-height: 39px;
+  color: #989494;
+}
+
+.dropdown-menu {
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+a.dropdown-toggle {
+  position: relative !important;
+}
+
+.dropdown.inkandtoner-menu:hover {
+
+  .triangle-up.inkandtoner-menu {
+    visibility: visible !important;
+  }
+}
+
+.dropdown.stationary-menu:hover {
+
+  .triangle-up.stationary-menu {
+    visibility: visible !important;
+  }
+}
+
+.dropdown.cleaningmaterials-menu:hover {
+
+  .triangle-up.cleaningmaterials-menu {
+    visibility: visible !important;
+  }
+}
+
+.dropdown.technical-menu:hover {
+
+  .triangle-up.technical-menu {
+    visibility: visible !important;
+  }
+}
+
+.triangle-up {
+  position: absolute;
+  right: 11px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid #ffffff;
+  z-index: 99999999;
+  visibility: hidden;
+
+  @media screen and (max-width: 1200px) {
+    right: 8.5px !important;
+  }
+
+}
+
+// Styling for Nav Dropdown Menu
+
+.dropdown.open {
+
+  .dropdown-menu {
+    width: 100% !important;
+  }
+
+  .mega-menu-list {
+
+    line-height: 20px !important;
+
+  }
+}

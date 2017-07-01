@@ -156,7 +156,7 @@
       .navbar-ctas {
         height: 100%;
         width: auto !important;
-        position: relative;
+        // position: relative;
 
         @media screen and (max-width: 992px) {
           padding-left: 15px;
@@ -229,5 +229,11 @@
   .mini-search {
     margin-left: 20px !important
   }
+}
 
+.nav > li {
+  position: static;
+}
+.nav > li > a {
+  position: static;
 }

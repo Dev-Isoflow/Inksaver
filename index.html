@@ -161,7 +161,7 @@
         </div>
 
         <nav class="navbar">
-            <div class="container" style="align-items: flex-end">
+            <div class="container" style="align-items: flex-end; position: relative;">
 
               <!-- <div class="container"> -->
                   <div class="navbar-toggle-contain">
@@ -181,78 +181,122 @@
                       <div id="navbar" class="navbar-collapse collapse">
                           <ul class="nav navbar-nav">
                               <li class="active"><a href="index.html">Home</a></li>
-                              <li class="dropdown mega-menu">
-                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ink &amp; Toner<i class="fa fa-chevron-down"></i></a>
-                                  <ul class="dropdown-menu">
+                              <!-- ink & toner dropdown -->
+                              <li class="dropdown mega-menu inkandtoner-menu">
+
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ink &amp; Toner<i class="fa fa-chevron-down"></i>
+                                        <div class="inkandtoner-menu triangle-up"></div>
+                                      </a>
+
+                                  <ul class="dropdown-menu inkandtoner-menu">
                                       <li>
-                                          <div class="mega-menu-content">
-                                              <div class="container">
-                                                  <div class="row">
-                                                      <div class="col-sm-6 col-md-3">
-                                                          <span class="mega-menu-title">Category A</span>
-                                                          <ol class="mega-menu-list">
-                                                              <li><a href="#">Product A</a></li>
-                                                              <li><a href="#">Product B</a></li>
-                                                              <li><a href="#">Product C</a></li>
-                                                              <li><a href="#">Product D</a></li>
-                                                              <li><a href="#">Product E</a></li>
-                                                          </ol>
-                                                      </div>
-                                                      <div class="col-sm-6 col-md-3">
-                                                          <span class="mega-menu-title">Category B</span>
-                                                          <ol class="mega-menu-list">
-                                                              <li><a href="#">Product A</a></li>
-                                                              <li><a href="#">Product B</a></li>
-                                                              <li><a href="#">Product C</a></li>
-                                                              <li><a href="#">Product D</a></li>
-                                                              <li><a href="#">Product E</a></li>
-                                                          </ol>
-                                                      </div>
-                                                      <div class="col-sm-6 col-md-3">
-                                                          <span class="mega-menu-title">Category C</span>
-                                                          <ol class="mega-menu-list">
-                                                              <li><a href="#">Product A</a></li>
-                                                              <li><a href="#">Product B</a></li>
-                                                              <li><a href="#">Product C</a></li>
-                                                              <li><a href="#">Product D</a></li>
-                                                              <li><a href="#">Product E</a></li>
-                                                          </ol>
-                                                      </div>
-                                                      <div class="col-sm-6 col-md-3">
-                                                          <span class="mega-menu-title">Category D</span>
-                                                          <ol class="mega-menu-list">
-                                                              <li><a href="#">Product A</a></li>
-                                                              <li><a href="#">Product B</a></li>
-                                                              <li><a href="#">Product C</a></li>
-                                                              <li><a href="#">Product D</a></li>
-                                                              <li><a href="#">Product E</a></li>
-                                                          </ol>
-                                                      </div>
+                                        <div class="mega-menu-content">
+                                            <div class="container-fluid">
+                                              <div class="row">
+                                                <div class="col-sm-6">
+                                                  <div class="mega-menu-title">
+                                                    <h2>Ink &amp; Toner Categories</h2>
                                                   </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                  <div class="mega-menu-expand">
+                                                    <a href="#"><h2>All Ink &amp; Toner<i class="fa fa-chevron-right"></i></h2></a>
+                                                  </div>
+                                                </div>
                                               </div>
-                                          </div>
+                                                <div class="row">
+                                                    <div class="col-sm-6 col-md-4">
+                                                        <ol class="mega-menu-list">
+                                                            <li><a href="#">Adhesives</a></li>
+                                                            <li><a href="#">Clips</a></li>
+                                                            <li><a href="#">General Office</a></li>
+                                                        </ol>
+                                                    </div>
+                                                    <div class="col-sm-6 col-md-4">
+
+                                                        <ol class="mega-menu-list">
+                                                            <li><a href="#">Batteries</a></li>
+                                                            <li><a href="#">Envelopes</a></li>
+                                                            <li><a href="#">Packaging</a></li>
+                                                        </ol>
+                                                    </div>
+                                                    <div class="col-sm-6 col-md-4">
+                                                        <ol class="mega-menu-list">
+                                                            <li><a href="#">Books</a></li>
+                                                            <li><a href="#">Filing</a></li>
+                                                            <li><a href="#">Writing Instruments</a></li>
+                                                        </ol>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                       </li>
                                   </ul>
                               </li>
-                              <li class="dropdown">
-                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Stationary<i class="fa fa-chevron-down"></i></a>
-                                  <ul class="dropdown-menu">
+                              <!-- end of ink & toner dropdown -->
+                              <!-- stationary dropdown -->
+                              <li class="dropdown mega-menu stationary-menu">
+                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Stationary<i class="fa fa-chevron-down"></i>
+                                    <div class="stationary-menu triangle-up"></div></a>
+                                  <ul class="dropdown-menu stationary-menu">
+                                      <li>
+                                        <div class="mega-menu-content">
+                                            <div class="container-fluid">
+                                              <div class="row">
+                                                <div class="col-sm-6">
+                                                  <div class="mega-menu-title">
+                                                    <h2>Stationary Categories</h2>
+                                                  </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                  <div class="mega-menu-expand">
+                                                    <a href="#"><h2>All Stationary <i class="fa fa-chevron-right"></i></h2></a>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                                <div class="row">
+                                                    <div class="col-sm-6 col-md-4">
+                                                        <ol class="mega-menu-list">
+                                                            <li><a href="#">Adhesives</a></li>
+                                                            <li><a href="#">Clips</a></li>
+                                                            <li><a href="#">General Office</a></li>
+                                                        </ol>
+                                                    </div>
+                                                    <div class="col-sm-6 col-md-4">
+
+                                                        <ol class="mega-menu-list">
+                                                            <li><a href="#">Batteries</a></li>
+                                                            <li><a href="#">Envelopes</a></li>
+                                                            <li><a href="#">Packaging</a></li>
+                                                        </ol>
+                                                    </div>
+                                                    <div class="col-sm-6 col-md-4">
+                                                        <ol class="mega-menu-list">
+                                                            <li><a href="#">Books</a></li>
+                                                            <li><a href="#">Filing</a></li>
+                                                            <li><a href="#">Writing Instruments</a></li>
+                                                        </ol>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <!-- end of stationary dropdown -->
+                              <li class="dropdown cleaningmaterials-menu">
+                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="padding-left: 15px">Cleaning Materials &amp; Breakroom<i class="fa fa-chevron-down"></i>
+                                  <div class="cleaningmaterials-menu triangle-up"></div></a>
+                                  <ul class="dropdown-menu cleaningmaterials-menu">
                                       <li><a href="#">Action</a></li>
                                       <li><a href="#">Another action</a></li>
                                       <li><a href="#">Something else here</a></li>
                                   </ul>
                               </li>
-                              <li class="dropdown">
-                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="padding-left: 15px">Cleaning Materials &amp; Breakroom<i class="fa fa-chevron-down"></i></a>
-                                  <ul class="dropdown-menu">
-                                      <li><a href="#">Action</a></li>
-                                      <li><a href="#">Another action</a></li>
-                                      <li><a href="#">Something else here</a></li>
-                                  </ul>
-                              </li>
-                              <li class="dropdown">
-                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Technical<i class="fa fa-chevron-down"></i></a>
-                                  <ul class="dropdown-menu">
+                              <li class="dropdown technical-menu">
+                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Technical<i class="fa fa-chevron-down"></i>
+                                  <div class="technical-menu triangle-up"></div></a>
+                                  <ul class="dropdown-menu technical-menu">
                                       <li><a href="#">Action</a></li>
                                       <li><a href="#">Another action</a></li>
                                       <li><a href="#">Something else here</a></li>
