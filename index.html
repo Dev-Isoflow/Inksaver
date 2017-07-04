@@ -468,22 +468,62 @@
                   <div class="cartridge-widget-panels">
                     <div class="widget-panel" id="panel1">
                       <h4>Step 1</h4>
-                      <div class="panel-dropdown">
-                        <i class="material-icons">keyboard_arrow_down</i>
-                      </div>
+                          <div class="dropdown">
+                              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                <i class="material-icons panel-dropdown">keyboard_arrow_down</i>
+                              </a>
+                              <div class="dropdown-menu">
+                              <ul>
+                                <li>HP</li>
+                                <li>Samsung</li>
+                                <li>Canon</li>
+                                <li>Brother</li>
+                                <li>Epson</li>
+                                <li>Lexmark</li>
+                                <li>Kyocera</li>
+                              </ul>
+                            </div>
+                          </div>
+
                       <p>Choose your printer brand</p>
                     </div>
                     <div class="widget-panel" id="panel2">
                       <h4>Step 2</h4>
-                      <div class="panel-dropdown">
-                        <i class="material-icons">keyboard_arrow_down</i>
+                      <div class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="material-icons panel-dropdown">keyboard_arrow_down</i>
+                          </a>
+                          <div class="dropdown-menu">
+                          <ul>
+                            <li>HP</li>
+                            <li>Samsung</li>
+                            <li>Canon</li>
+                            <li>Brother</li>
+                            <li>Epson</li>
+                            <li>Lexmark</li>
+                            <li>Kyocera</li>
+                          </ul>
+                        </div>
                       </div>
                       <p>Choose your printer series</p>
                     </div>
                     <div class="widget-panel" id="panel3">
                       <h4>Step 3</h4>
-                      <div class="panel-dropdown">
-                        <i class="material-icons">keyboard_arrow_down</i>
+                      <div class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="material-icons panel-dropdown">keyboard_arrow_down</i>
+                          </a>
+                          <div class="dropdown-menu">
+                          <ul>
+                            <li>HP</li>
+                            <li>Samsung</li>
+                            <li>Canon</li>
+                            <li>Brother</li>
+                            <li>Epson</li>
+                            <li>Lexmark</li>
+                            <li>Kyocera</li>
+                          </ul>
+                        </div>
                       </div>
                       <p>Choose your printer modal</p>
                     </div>
@@ -493,21 +533,36 @@
                   </div>
 
                   <div class="cartridge-descriptions">
+                    <div class="container-fluid">
                       <div class="row">
                         <div class="col-md-6 col-sm-12">
-                          <div class="cartridge-type" id="ink">
+                          <div class="row cartridge-type" id="ink">
                             <span class="description-title"><h3>Our Ink Cartridges</h3></span>
-                            <p>With our range of compatible and original printer ink cartridges, you will be able to find the right product for your printer. <a href="#">Read More</a></p>
+                            <!-- <div> -->
+                              <input type="checkbox" class="read-more-state" id="post-1" />
+
+                              <p class="read-more-wrap">With our range of compatible and original printer ink cartridges, you will be able to find the right product for your printer. <span class="read-more-target"> Our HP ink cartridges and Canon printer ink produce the best quality prints at the best possible price. We also stock a number of Lexmark, Epson and Brother ink cartridges.</span></p>
+
+                              <label for="post-1" class="read-more-trigger"></label>
+                            <!-- </div> -->
                           </div>
                         </div>
                         <div class="col-md-6 col-sm-12">
-                          <div class="cartridge-type" id="toner">
+                          <div class="row cartridge-type" id="toner">
                             <span class="description-title"><h3>Our Toner Cartridges</h3></span>
-                            <p>Our high quality Samsung toner provides the clearest prints and best value for money. You can also save on our… <a href="#">Read More</a></p>
+                            <!-- <p>Our high quality Samsung toner provides the clearest prints and best value for money. You can also save on our… <a href="#">Read More</a></p> -->
+
+                            <input type="checkbox" class="read-more-state" id="post-2" />
+
+                            <p class="read-more-wrap">Our high quality Samsung toner provides the clearest prints and best value for money. You can also save on our <span class="read-more-target"> comprehensive range of Brother toner and HP printer toner, which complement their complete range of printer inks. Other printer toner cartridge brands we stock include Canon, Xerox and Kyocera.</span></p>
+
+                            <label for="post-2" class="read-more-trigger"></label>
+
                           </div>
                         </div>
                       </div>
                   </div>
+                </div>
                 </div>
 
                 <div class="row cartridge-hr-divider">
