@@ -3,6 +3,12 @@
   padding-bottom: 52px;
   text-align: center;
 
+  .testimonial-carousel-header {
+    h1 {
+      margin-top: 0px;
+    }
+  }
+
   i {
     color: $secondary-color;
   }

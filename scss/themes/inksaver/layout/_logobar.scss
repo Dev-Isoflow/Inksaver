@@ -1,10 +1,12 @@
 .logobar {
+  margin-top: 39px;
+}
+
+.logobar-content {
   box-sizing: border-box;
   height: auto;
-  padding-top: 30px;
+  padding-top: 26px;
   padding-bottom: 30px;
-
-  .container {
 
     .row {
       .logo-contain {
@@ -14,14 +16,18 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: #ffffff;
 
         img {
           width: auto;
         }
       }
     }
+}
 
-  }
+.logobar-title h2 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .logo-contain {
@@ -64,4 +70,15 @@
       z-index: 0
     }
   }
+}
+
+// .logobar .container .content-container {
+//   padding-left: 42px !important;
+//   padding-right: 42px !important;
+// }
+
+.cartridge-widget .logobar .content-container {
+
+    padding-right: 42px !important;
+    padding-bottom: 0 !important;
 }

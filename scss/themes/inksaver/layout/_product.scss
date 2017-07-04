@@ -98,19 +98,27 @@
 }
 
 .slider-buttons {
-  // margin-bottom: 24px;
+
+  text-align: right;
+  position: static !important;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   text-align: right;
 
 
   .slide-prev, .slide-next {
-    width: 48px;
-    height: 48px;
+    width: 42px;
+    height: 42px;
     border: solid 1px #dddddd;
     background-color: #ffffff;
+    position: static !important;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end !important;
   }
-
 }
 
-#specials {
-  padding-bottom: 0;
+#recommended {
+  padding-top: 74.6px;
 }

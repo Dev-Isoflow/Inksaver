@@ -2,17 +2,18 @@
   height: auto;
   background-color: #f5f5f5;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: 31px;
-  padding-bottom: 34px;
+  padding-bottom: 23.4px;
 
 
   .container {
     padding-top: 35px;
-    padding-bottom: 49px;
-    // height: auto;
-
+    padding-bottom: 9px;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
 
     background-color: #ffffff;
 
@@ -22,6 +23,7 @@
         height: 100%;
         padding-left: 42px;
         padding-right: 64px;
+        padding-bottom: 34px;
 
         .cartridge-widget-title h2 {
           font-size: 30px;
@@ -107,16 +109,6 @@
     box-sizing: border-box;
   }
 
-  .col-sm-12 {
-    #ink {
-      padding-right: 0 !important;
-    }
-
-    #toner {
-      padding-left: 0 !important;
-    }
-  }
-
   .description-title {
 
       h3 {
@@ -174,9 +166,15 @@
 }
 
 @media screen and (max-width: 992px) {
-  #ink {
-    margin-bottom: 49px !important;
-  }
+
+    #ink {
+      margin-bottom: 49px !important;
+      padding-right: 0 !important;
+    }
+
+    #toner {
+      padding-left: 0 !important;
+    }
 }
 
 #ink {
@@ -185,4 +183,12 @@
 
 #toner {
   padding-left: 6.9374%;
+}
+
+.cartridge-hr-divider {
+
+    hr {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
