@@ -20943,7 +20943,13 @@ pre {
       box-sizing: border-box; }
       .section-newsletter .container .newsletter-content-container .newsletter-contain, .section-newsletter .banner-boxed .newsletter-content-container .newsletter-contain {
         padding-left: 22.361%;
-        width: 50%; }
+        width: 40%; }
+        @media screen and (max-width: 1206px) {
+          .section-newsletter .container .newsletter-content-container .newsletter-contain, .section-newsletter .banner-boxed .newsletter-content-container .newsletter-contain {
+            padding-left: 15% !important; } }
+        @media screen and (max-width: 1155px) {
+          .section-newsletter .container .newsletter-content-container .newsletter-contain, .section-newsletter .banner-boxed .newsletter-content-container .newsletter-contain {
+            padding-left: 10% !important; } }
       .section-newsletter .container .newsletter-content-container .newsletter-info, .section-newsletter .banner-boxed .newsletter-content-container .newsletter-info {
         width: 50%; }
       @media screen and (max-width: 992px) {
@@ -21043,6 +21049,22 @@ pre {
               background-color: #ffffff;
               font-size: 14px;
               text-transform: uppercase; }
+
+@media screen and (max-width: 876px) {
+  .section-newsletter .container .newsletter-content-container, .section-newsletter .banner-boxed .newsletter-content-container, .section-newsletter .banner-boxed .newsletter-content-container {
+    width: 80% !important; } }
+
+@media screen and (max-width: 773px) {
+  .section-newsletter .container .newsletter-content-container, .section-newsletter .banner-boxed .newsletter-content-container, .section-newsletter .banner-boxed .newsletter-content-container {
+    width: 90% !important; } }
+
+@media screen and (max-width: 665px) {
+  .section-newsletter .container .newsletter-content-container, .section-newsletter .banner-boxed .newsletter-content-container, .section-newsletter .banner-boxed .newsletter-content-container {
+    width: 100% !important; } }
+
+@media screen and (max-width: 520px) {
+  .newsletter-text h3, .newsletter-text .booking-type .booking-type-title, .booking-type .newsletter-text .booking-type-title {
+    margin-bottom: 10px !important; } }
 
 .footer {
   background-color: #323232;
