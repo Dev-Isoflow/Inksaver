@@ -20104,7 +20104,8 @@ pre {
   padding-top: 0;
   padding-bottom: 0;
   text-align: left;
-  border-bottom: 0; }
+  border-bottom: 0;
+  z-index: -1; }
   .header-a .navbar .container, .header-a .navbar .banner-boxed {
     height: 100%; }
     .header-a .navbar .container .navbar-toggle-contain, .header-a .navbar .banner-boxed .navbar-toggle-contain {
@@ -20128,7 +20129,7 @@ pre {
             background-color: rgba(255, 255, 255, 0.96); } }
         .header-a .navbar .container .navbar-ctas #navbar ul.nav.navbar-nav, .header-a .navbar .banner-boxed .navbar-ctas #navbar ul.nav.navbar-nav {
           height: 100%; }
-          .header-a .navbar .container .navbar-ctas #navbar ul.nav.navbar-nav li.home a, .header-a .navbar .banner-boxed .navbar-ctas #navbar ul.nav.navbar-nav li.home a {
+          .header-a .navbar .container .navbar-ctas #navbar ul.nav.navbar-nav li a:nth-of-type(1), .header-a .navbar .banner-boxed .navbar-ctas #navbar ul.nav.navbar-nav li a:nth-of-type(1) {
             padding-left: 0px; }
           .header-a .navbar .container .navbar-ctas #navbar ul.nav.navbar-nav li, .header-a .navbar .banner-boxed .navbar-ctas #navbar ul.nav.navbar-nav li {
             height: 100%; }
@@ -20137,7 +20138,7 @@ pre {
               padding-bottom: 12px;
               color: #323232;
               font-size: 14px; }
-  .header-a .navbar #sale {
+  .header-a .navbar #special-offers-nav-button {
     font-family: "ProximaBold", serif;
     color: #CF0974 !important; }
 
@@ -20186,9 +20187,7 @@ pre {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: center; }
-  .mini-search {
-    margin-left: 20px !important; } }
+    align-items: center; } }
 
 .nav > li {
   position: static; }
@@ -20280,7 +20279,7 @@ pre {
   #navbar ul.nav.navbar-nav li a {
     padding-left: 15px !important;
     padding-right: 15px !important; }
-  .dropdown-menu {
+  .nav .dropdown-menu {
     width: 225% !important;
     margin-left: 0 !important;
     margin: 0 !important;
@@ -20301,7 +20300,9 @@ pre {
     position: static;
     right: 0px; }
     .header-a .navbar .container .navbar-ctas #navbar, .header-a .navbar .banner-boxed .navbar-ctas #navbar, .header-a .navbar .banner-boxed .navbar-ctas #navbar {
-      padding-right: 0px !important; } }
+      padding-right: 0px !important; }
+  .dropdown:hover .dropdown-menu {
+    display: block !important; } }
 
 @media screen and (max-width: 892px) {
   #navbar ul.nav.navbar-nav li a {
@@ -20309,7 +20310,7 @@ pre {
     padding-right: 15px !important; }
   .dropdown:hover .dropdown-menu {
     display: block !important; }
-  .dropdown-menu {
+  .nav .dropdown-menu {
     width: 200% !important;
     top: auto !important;
     left: 0 !important; } }
@@ -20317,30 +20318,30 @@ pre {
 @media screen and (max-width: 768px) {
   .nav {
     padding-left: 15px !important; }
-  .dropdown-menu {
-    width: 200% !important; } }
+    .nav .dropdown-menu {
+      width: 200% !important; } }
 
-.inkandtoner-menu.dropdown-menu {
+.nav .inkandtoner-menu.dropdown-menu {
   width: 400%; }
 
-.stationary-menu.dropdown-menu {
+.nav .officesupplies-menu.dropdown-menu {
   width: 400%; }
 
-.paper-menu.dropdown-menu {
+.nav .paper-menu.dropdown-menu {
   width: 600%; }
 
-.cleaningmaterials-menu.dropdown-menu {
+.nav .cleaningmaterials-menu.dropdown-menu {
   width: 200%; }
 
-.technical-menu.dropdown-menu {
+.nav .technical-menu.dropdown-menu {
   margin-left: -150%;
   width: 400%; }
 
-.officefurniture-menu.dropdown-menu {
+.nav .officefurniture-menu.dropdown-menu {
   margin-left: -150%;
   width: 300%; }
 
-.mega-menu-expand {
+.nav .mega-menu-expand {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -20353,9 +20354,9 @@ pre {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center; }
-  .mega-menu-expand a {
+  .nav .mega-menu-expand a {
     padding: 0 !important; }
-  .mega-menu-expand h2 {
+  .nav .mega-menu-expand h2 {
     color: #0fa0da;
     text-transform: uppercase;
     font-size: 12px;
@@ -20364,54 +20365,54 @@ pre {
     border: solid 2px #0fa0da;
     padding-left: 10px;
     padding-right: 10px; }
-    .mega-menu-expand h2 i {
+    .nav .mega-menu-expand h2 i {
       padding-left: 5px; }
 
-li.dropdown, li.dropdown.open {
+.nav li.dropdown, .nav li.dropdown.open {
   position: relative !important; }
 
-.dropdown-menu li {
+.nav .dropdown-menu li {
   margin: 0 6px; }
 
-.mega-menu-title h2 {
+.nav .mega-menu-title h2 {
   font-size: 16px;
   color: #575757; }
 
-.mega-menu-content {
+.nav .mega-menu-content {
   padding-bottom: 30px !important; }
 
-.mega-menu-list {
+.nav .mega-menu-list {
   font-size: 16px;
   line-height: 39px;
   color: #989494; }
 
-.dropdown-menu {
+.nav .dropdown-menu {
   -webkit-box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.1);
   border: none; }
 
-a.dropdown-toggle {
+.nav a.dropdown-toggle {
   position: relative !important; }
 
-.dropdown.inkandtoner-menu:hover .triangle-up.inkandtoner-menu {
+.nav .dropdown.inkandtoner-menu:hover .triangle-up.inkandtoner-menu {
   visibility: visible !important; }
 
-.dropdown.stationary-menu:hover .triangle-up.stationary-menu {
+.nav .dropdown.officesupplies-menu:hover .triangle-up.officesupplies-menu {
   visibility: visible !important; }
 
-.dropdown.paper-menu:hover .triangle-up.paper-menu {
+.nav .dropdown.paper-menu:hover .triangle-up.paper-menu {
   visibility: visible !important; }
 
-.dropdown.cleaningmaterials-menu:hover .triangle-up.cleaningmaterials-menu {
+.nav .dropdown.cleaningmaterials-menu:hover .triangle-up.cleaningmaterials-menu {
   visibility: visible !important; }
 
-.dropdown.technical-menu:hover .triangle-up.technical-menu {
+.nav .dropdown.technical-menu:hover .triangle-up.technical-menu {
   visibility: visible !important; }
 
-.dropdown.officefurniture-menu:hover .triangle-up.officefurniture-menu {
+.nav .dropdown.officefurniture-menu:hover .triangle-up.officefurniture-menu {
   visibility: visible !important; }
 
-.triangle-up {
+.nav .triangle-up {
   position: absolute;
   right: 11px;
   bottom: 0;
@@ -20420,20 +20421,20 @@ a.dropdown-toggle {
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   border-bottom: 9px solid #ffffff;
-  z-index: 99999999;
+  z-index: 9999;
   visibility: hidden; }
   @media screen and (max-width: 1200px) {
-    .triangle-up {
+    .nav .triangle-up {
       right: 8.5px !important; } }
 
 @media screen and (max-width: 1000px) {
-  .mega-menu-title h2 {
+  .nav .mega-menu-title h2 {
     font-size: 14px;
     padding-left: 15px; }
-  .mega-menu-list {
+  .nav .mega-menu-list {
     font-size: 14px;
     line-height: 25px; }
-  .dropdown-menu {
+  .nav .dropdown-menu {
     width: 185% !important; } }
 
 .logobar {
@@ -20851,6 +20852,21 @@ a.dropdown-toggle {
 
 .advertising-item h2 {
   margin-bottom: 11px; }
+
+@media screen and (max-width: 1200px) {
+  .advertising-item {
+    width: 50% !important;
+    margin: 0 auto; } }
+
+@media screen and (max-width: 768px) {
+  .advertising-item {
+    width: 70% !important;
+    margin: 0 auto; } }
+
+@media screen and (max-width: 449px) {
+  .advertising-item {
+    width: 80% !important;
+    margin: 0 auto; } }
 
 .testimonial-carousel {
   padding-top: 68.5px;

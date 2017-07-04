@@ -1,8 +1,10 @@
+.nav {
+
 .inkandtoner-menu.dropdown-menu {
   width: 400%;
 }
 
-.stationary-menu.dropdown-menu {
+.officesupplies-menu.dropdown-menu {
   width: 400%;
 }
 
@@ -93,9 +95,9 @@ a.dropdown-toggle {
   }
 }
 
-.dropdown.stationary-menu:hover {
+.dropdown.officesupplies-menu:hover {
 
-  .triangle-up.stationary-menu {
+  .triangle-up.officesupplies-menu {
     visibility: visible !important;
   }
 }
@@ -137,7 +139,7 @@ a.dropdown-toggle {
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   border-bottom: 9px solid #ffffff;
-  z-index: 99999999;
+  z-index: 9999;
   visibility: hidden;
 
   @media screen and (max-width: 1200px) {
@@ -160,4 +162,6 @@ a.dropdown-toggle {
     .dropdown-menu {
       width: 185% !important;
     }
+}
+
 }

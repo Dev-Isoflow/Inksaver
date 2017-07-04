@@ -64,3 +64,27 @@
     margin-bottom: 11px;
   }
 }
+
+@media screen and (max-width: 1200px) {
+
+  .advertising-item {
+    width: 50% !important;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .advertising-item {
+    width: 70% !important;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 449px) {
+
+  .advertising-item {
+    width: 80% !important;
+    margin: 0 auto;
+  }
+}
