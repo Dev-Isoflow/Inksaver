@@ -1,9 +1,10 @@
 .advertising-section-title {
-  text-align: center;
 
   h1 {
     margin-bottom: 36px;
+    text-align: center;
   }
+
 }
 
 .section-advertising {
@@ -21,12 +22,6 @@
 
       .col-md-12 {
         margin-bottom: 51px;
-
-        .advertising-item {
-
-          // padding-left: 25%;
-          // padding-right: 25%;
-        }
       }
     }
   }
@@ -44,47 +39,38 @@
   }
 }
 
-.col-lg-4 {
-  .advertising-item {
-
-      padding-left: 50px !important;
-      padding-right: 50px !important;
-
-  }
-}
-
 .advertising-item {
 
-  p {
-    line-height: 1.5;
+  padding-left: 40px;
+  padding-right: 40px;
 
+  p {
+    font-size: 16px;
+    line-height: 24px;
   }
 
   h2 {
     margin-bottom: 11px;
   }
-}
 
-@media screen and (max-width: 1200px) {
-
-  .advertising-item {
-    width: 50% !important;
+  @media screen and (max-width: 1200px) {
+    width: 60% !important;
     margin: 0 auto;
   }
-}
 
-@media screen and (max-width: 768px) {
-
-  .advertising-item {
+  @media screen and (max-width: 768px) {
     width: 70% !important;
     margin: 0 auto;
   }
-}
 
-@media screen and (max-width: 449px) {
-
-  .advertising-item {
+  @media screen and (max-width: 449px) {
     width: 80% !important;
     margin: 0 auto;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+
+    p {
+      font-size: 14px !important;
+    }
   }
 }
