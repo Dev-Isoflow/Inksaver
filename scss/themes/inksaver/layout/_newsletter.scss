@@ -7,7 +7,6 @@
   align-items: center;
 
   .container {
-    width: auto !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,8 +113,6 @@
 .section-newsletter .container .newsletter-content-container {
 
   display: flex;
-  padding-left: 50px;
-  padding-right: 50px;
   width: auto;
   box-sizing: border-box;
 

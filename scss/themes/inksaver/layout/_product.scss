@@ -34,15 +34,20 @@
 
   &:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
-    transform: scale(1.10, 1.07);
-    transition: 0.25s;
+    // transform: scale(1.00, 1.07);
+    transform: scaleY(1.07);
+    transition: 0.2s;
 
     .product-box-img {
       border: 0;
     }
 
     .product-box-detail {
-      transform: scale(0.909090, 0.934579);
+      // transform: scale(1, 0.934579);
+      transform: scaleY(0.934579);
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 5px;
       transition: 0s !important;
     }
   }
