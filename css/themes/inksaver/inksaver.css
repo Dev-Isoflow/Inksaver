@@ -20031,7 +20031,7 @@ pre {
       padding-top: 10px; }
 
 .header-a .main-bar .main-bar-ctas {
-  height: 100%;
+  height: auto;
   display: inline-block;
   width: auto;
   vertical-align: middle;
@@ -20294,6 +20294,18 @@ pre {
   .header-a.masthead-empty .navbar {
     padding-bottom: 0; } }
 
+@media screen and (max-width: 1200px) and (min-width: 892px) {
+  .navbar .navbar-ctas #navbar .navbar-nav .dropdown .dropdown-toggle i {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg); } }
+
+@media screen and (max-width: 768px) and (min-width: 631px) {
+  .navbar .navbar-ctas #navbar .navbar-nav .dropdown .dropdown-toggle i {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg); } }
+
 .inkandtoner-menu.dropdown-menu {
   width: 400%; }
 
@@ -20358,6 +20370,8 @@ li.dropdown, li.dropdown.open {
       font-size: 16px !important;
       line-height: 40px !important;
       color: #989494 !important; }
+      .nav .dropdown-menu .mega-menu-content .mega-menu-list li a:hover {
+        font-family: 'ProximaBold', serif; }
   .nav .dropdown-menu li {
     margin: 0 6px; }
 
@@ -20392,7 +20406,7 @@ li.dropdown, li.dropdown.open {
   visibility: hidden; }
   @media screen and (max-width: 1200px) {
     .triangle-up {
-      right: 8.5px !important; } }
+      display: none; } }
 
 @media (max-width: 1200px) {
   #navbar ul.nav.navbar-nav li a {
@@ -20440,7 +20454,7 @@ li.dropdown, li.dropdown.open {
   #navbar ul.nav.navbar-nav li a {
     padding-left: 15px !important;
     padding-right: 15px !important; }
-  .dropdown:hover .dropdown-menu {
+  .nav .dropdown:hover .dropdown-menu {
     display: block !important; }
   .nav .dropdown-menu {
     width: 200% !important;
@@ -20457,7 +20471,8 @@ li.dropdown, li.dropdown.open {
     position: relative; }
   .nav .mega-menu-content .container-fluid .row div:nth-of-type(3) {
     display: none; }
-  .nav .mega-menu-content .container-fluid .row .col-sm-6 {
+  .nav .mega-menu-content .container-fluid .row .col-sm-6,
+  .nav .mega-menu-content .container-fluid .row .col-sm-5 {
     position: static; }
   .nav .dropdown-menu .mega-menu-content .mega-menu-list li a {
     font-size: 12px !important;
@@ -21215,7 +21230,18 @@ li.dropdown, li.dropdown.open {
       -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center;
-      width: 70% !important; } }
+      width: 70% !important; }
+      .section-newsletter .banner-boxed .newsletter-content-container .newsletter-contain,
+      .section-newsletter .container .newsletter-content-container .newsletter-contain,
+      .section-newsletter .banner-boxed .newsletter-content-container .newsletter-contain {
+        width: 80% !important; }
+      .section-newsletter .banner-boxed .newsletter-content-container .input-group input.form-control,
+      .section-newsletter .banner-boxed .newsletter-content-container .input-group input.form-control::-webkit-input-placeholder,
+      .section-newsletter .container .newsletter-content-container .input-group input.form-control,
+      .section-newsletter .banner-boxed .newsletter-content-container .input-group input.form-control,
+      .section-newsletter .container .newsletter-content-container .input-group input.form-control::-webkit-input-placeholder,
+      .section-newsletter .banner-boxed .newsletter-content-container .input-group input.form-control::-webkit-input-placeholder {
+        text-align: center !important; } }
   @media screen and (max-width: 876px) {
     .section-newsletter .banner-boxed .newsletter-content-container,
     .section-newsletter .container .newsletter-content-container,
@@ -21231,10 +21257,19 @@ li.dropdown, li.dropdown.open {
     .section-newsletter .container .newsletter-content-container,
     .section-newsletter .banner-boxed .newsletter-content-container {
       width: 100% !important; } }
-
-@media screen and (max-width: 520px) {
-  .newsletter-text h3, .newsletter-text .booking-type .booking-type-title, .booking-type .newsletter-text .booking-type-title {
-    margin-bottom: 10px !important; } }
+  @media screen and (max-width: 520px) {
+    .section-newsletter .banner-boxed .newsletter-content-container .newsletter-text h3, .section-newsletter .banner-boxed .newsletter-content-container .newsletter-text .booking-type .booking-type-title, .booking-type .section-newsletter .banner-boxed .newsletter-content-container .newsletter-text .booking-type-title,
+    .section-newsletter .container .newsletter-content-container .newsletter-text h3,
+    .section-newsletter .banner-boxed .newsletter-content-container .newsletter-text h3,
+    .section-newsletter .container .newsletter-content-container .newsletter-text .booking-type .booking-type-title, .booking-type
+    .section-newsletter .container .newsletter-content-container .newsletter-text .booking-type-title,
+    .section-newsletter .banner-boxed .newsletter-content-container .newsletter-text .booking-type .booking-type-title, .booking-type
+    .section-newsletter .banner-boxed .newsletter-content-container .newsletter-text .booking-type-title {
+      margin-bottom: 10px !important; }
+    .section-newsletter .banner-boxed .newsletter-content-container .newsletter-contain,
+    .section-newsletter .container .newsletter-content-container .newsletter-contain,
+    .section-newsletter .banner-boxed .newsletter-content-container .newsletter-contain {
+      width: 90% !important; } }
 
 .footer {
   background-color: #323232;
