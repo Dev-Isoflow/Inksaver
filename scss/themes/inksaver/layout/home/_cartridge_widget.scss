@@ -8,6 +8,11 @@
   padding-top: 31px;
   padding-bottom: 23.4px;
 
+  @media screen and (max-width: 1000px) {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
   .container {
     padding-top: 35px;
     padding-bottom: 9px;
@@ -44,13 +49,13 @@
   h4 {
     font-size: 12px;
     margin-top: 15px;
-    color: $secondary-color;
+    color: #CF0974;
     margin-bottom: 0;
     text-transform: uppercase;
   }
 
   p {
-    color: $title-color;
+    color: #575757;
     font-size: 16px;
     margin-top: 0;
   }
@@ -130,7 +135,7 @@
     display: block;
     width: 100%;
     height: 100%;
-    background-color: $secondary-color;
+    background-color: #CF0974;
     color: #ffffff;
     font-family: 'ProximaRegular', serif;
     font-size: 12px;
@@ -184,7 +189,7 @@
   }
 }
 
-#ink {
+#ink-cartridge-description {
   padding-right: 35px;
 
   @media screen and (max-width: 992px) {
@@ -198,7 +203,7 @@
   }
 }
 
-#toner {
+#toner-cartridge-description {
   padding-left: 6.9374%;
 
   @media screen and (max-width: 992px) {
@@ -262,13 +267,13 @@
   width: auto !important;
 }
 
-#toner .read-more-wrap {
+#toner-cartridge-description .read-more-wrap {
   &:after {
     content: '...';
   }
 }
 
-#toner .read-more-state:checked ~ .read-more-wrap {
+#toner-cartridge-description .read-more-state:checked ~ .read-more-wrap {
   &:after {
     content: '';
   }

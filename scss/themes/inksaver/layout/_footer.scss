@@ -61,6 +61,9 @@ ul.footer-list li a {
 }
 
 .footer .footer-top {
+
+  border-top: 0;
+  
   .col-xs-5, .col-xs-7 {
 
     @media screen and (max-width: 768px) {

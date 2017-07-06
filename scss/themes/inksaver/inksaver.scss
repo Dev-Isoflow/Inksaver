@@ -12,19 +12,22 @@
 // Inksaver Custom Layout
 // ==========================================================================
 
-// layout
 
+// @import 'layout/cartridge_widget';
+// @import 'layout/horizontal_product_carousel';
+// @import 'layout/home/advertisement';
+// @import 'layout/testimonial_carousel';
+// @import 'layout/home/newsletter';
+// @import 'layout/logobar';
 
 @import 'layout/header';
 @import 'layout/navbar';
 @import 'layout/_navbar_menus';
-@import 'layout/logobar';
+
 @import 'layout/carousel';
-@import 'layout/cartridge_widget';
-@import 'layout/product';
-@import 'layout/advertisement';
-@import 'layout/testimonial_carousel';
-@import 'layout/newsletter';
+
 @import 'layout/footer';
+
+@import 'layout/sections';
 
 @import 'layout/product-filter/product-grid';

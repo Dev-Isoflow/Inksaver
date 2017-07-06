@@ -76,10 +76,6 @@
     font-family: 'ProximaRegular', serif;
     font-weight: 400; /* Ask Byron about this */
   }
-
-  a:active {
-    font-family: "ProximaBold", serif; /*Need JavaScript to sustain bold*/
-  }
 }
 
 .nav > li {
@@ -213,10 +209,7 @@
 .navbar .navbar-ctas #navbar .navbar-nav .dropdown .dropdown-toggle {
 
   i {
-    @media screen and (max-width: 1200px) and (min-width: 892px) {
-      transform: rotate(-90deg);
-    }
-    @media screen and (max-width: 768px) and (min-width: 631px) {
+    @media screen and (max-width: 1200px) and (min-width: 1000px) {
       transform: rotate(-90deg);
     }
   }

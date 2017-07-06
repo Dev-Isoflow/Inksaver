@@ -16,12 +16,12 @@
 
 .technical-menu.dropdown-menu {
   margin-left: -150% !important;
-  width: 400%;
+  width: 500%;
 }
 
 .officefurniture-menu.dropdown-menu {
   margin-left: -150% !important;
-  width: 300%;
+  width: 350%;
 }
 
 // general navbar menu styling
@@ -152,6 +152,20 @@ li.dropdown, li.dropdown.open {
   }
 
   .nav {
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.1) !important;
+
+    .dropdown.open {
+      .dropdown-menu {
+        display: none;
+      }
+    }
+
+    .dropdown:hover {
+      .dropdown-menu {
+        display: block !important;
+      }
+    }
+
     .dropdown-menu {
       width: 225% !important;
       margin: 0 !important;
@@ -164,23 +178,67 @@ li.dropdown, li.dropdown.open {
       border-top-color: #DDDDDD !important;
       background-color: #ffffff !important;
       position: absolute !important;
+
+      .mega-menu-title h2 {
+          padding-left: 15px !important;
+      }
     }
   }
 }
 
 @media screen and (max-width: 1000px) {
-    .mega-menu-title h2 {
-        font-size: 14px;
-        padding-left: 15px;
-    }
 
     .mega-menu-list {
       font-size: 14px;
       line-height: 25px;
     }
 
-    .nav .dropdown-menu {
-      width: 185% !important;
+    .nav {
+
+      background-color: rgba(255,255,255,0.5);
+
+      .dropdown-menu {
+        width: 185% !important;
+        position: static !important;
+
+        .mega-menu-content {
+          box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, 0.1);
+          padding-top: 15px !important;
+          padding-bottom: 20px !important;
+
+          .mega-menu-list li a {
+            font-size: 12px !important;
+            line-height: 30px !important;
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
+          }
+        }
+      }
+
+      .dropdown:hover {
+        .dropdown-menu {
+          display: none !important;
+        }
+      }
+
+      .dropdown.open {
+        .dropdown-menu, .dropdown-menu:hover {
+          display: block !important;
+
+            .mega-menu-content:focus {
+              background-color: red;
+            }
+        }
+      }
+
+      .dropdown.open:hover {
+        .dropdown-menu {
+          display: block !important;
+        }
+      }
+
+
+
     }
 }
 
@@ -206,72 +264,54 @@ li.dropdown, li.dropdown.open {
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
-
-  .nav .dropdown:hover .dropdown-menu {
-    display: block !important;
-  }
-
-  .nav {
-    .dropdown-menu {
-      width: 200% !important;
-      top: auto !important;
-      left: 25% !important;
-    }
-  }
 }
+
 @media screen and (max-width: 768px) {
 
   .navbar-nav {
     margin: 0 !important;
   }
-  .nav {
 
+  .nav {
     .dropdown-menu {
       width: 100% !important;
-      left: 295px !important;
-      top: 0 !important;
-      position: relative;
-    }
-  }
 
-  .nav {
-    .mega-menu-content .container-fluid .row div:nth-of-type(3) {
-      display: none;
-    }
+      .mega-menu-content {
+        padding-bottom: 55px !important;
 
-    .mega-menu-content .container-fluid .row .col-sm-6,
-    .mega-menu-content .container-fluid .row .col-sm-5 {
-      position: static;
-    }
+        .mega-menu-expand {
+          position: absolute;
+          bottom: 5px;
+          right: 0;
+          left: 0;
+          display: flex;
+          justify-content: center;
+        }
 
-    .dropdown-menu .mega-menu-content .mega-menu-list li a {
-      font-size: 12px !important;
-      line-height: 30px !important;
-      padding-top: 0px !important;
-      padding-bottom: 0px !important;
-    }
+        .container-fluid .row div:nth-of-type(3) {
+          display: none;
+        }
 
-    .mega-menu-expand {
-      position: absolute;
-      bottom: 5px;
-      right: 0;
-      left: 0;
-      display: flex;
-      justify-content: center;
-    }
-
-    .dropdown-menu .mega-menu-content {
-      padding-bottom: 55px !important;
+        .container-fluid .row .col-sm-6,
+        .container-fluid .row .col-sm-5 {
+          position: static;
+        }
+      }
     }
   }
 }
 
 @media screen and (max-width: 630px) {
-  .nav .dropdown-menu {
-    left: 0 !important;
-    width: 100% !important;
+
+
+  .nav {
+
+    .dropdown-menu {
+      width: 100% !important;
+    }
   }
 }
+
 
 .navbar-collapse.in {
   overflow: visible !important;

@@ -119,6 +119,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+
+    @media screen and (max-width: 500px) {
+      width: 100%;
+    }
   }
 
   @media screen and (max-width: 992px) {
@@ -155,7 +159,7 @@
   }
 
   @media screen and (max-width: 500px){
-    width: 285px;
+    width: 100%;
   }
 }
 
@@ -174,7 +178,11 @@
     position: absolute;
     right: 30px;
   }
+  @media screen and (max-width: 500px){
+    margin-left: 0 !important;
+    bottom: -66px;
 
+  }
   @media screen and (max-width: 430px) {
     right: 15px;
   }
