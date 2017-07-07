@@ -21394,6 +21394,9 @@ ul.footer-list li a {
     .newsletter .banner-boxed .newsletter-content-container .newsletter-contain {
       width: 90% !important; } }
 
+.product-categories-contain .product-categories {
+  margin-bottom: 123px; }
+
 .product-categories-contain .category-filter-box {
   height: 262px !important;
   background-color: rgba(245, 245, 245, 0.51);
@@ -21410,7 +21413,18 @@ ul.footer-list li a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  position: relative; }
+  position: relative;
+  margin-bottom: 25px; }
+  .product-categories-contain .category-filter-box:hover {
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    -webkit-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05); }
   .product-categories-contain .category-filter-box .category-filter-box-content-contain {
     display: -webkit-box;
     display: -webkit-flex;
@@ -21473,3 +21487,175 @@ ul.footer-list li a {
     width: auto;
     right: 10px;
     bottom: 5px; }
+
+.product-categories-contain .text-center {
+  margin-top: 19px; }
+  .product-categories-contain .text-center .btn, .product-categories-contain .text-center .header-a .account-dropdown .dropdown-menu .btn, .header-a .account-dropdown .dropdown-menu .product-categories-contain .text-center .btn, .product-categories-contain .text-center .header-b .account-dropdown .dropdown-menu .btn, .header-b .account-dropdown .dropdown-menu .product-categories-contain .text-center .btn {
+    background-color: #323232; }
+
+.product-category-contain .category-header .category-title-contain {
+  font-size: 30px;
+  font-family: 'ProximaBold', serif;
+  color: #575757;
+  margin-right: 0; }
+
+.product-category-contain .category-header .filter-results-num {
+  width: auto !important;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 100px;
+  background-color: #f5f5f5;
+  border: 0;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  color: rgba(102, 102, 102, 0.7);
+  text-transform: uppercase;
+  font-family: 'ProximaBold', serif;
+  margin-top: 0;
+  margin-left: 24px;
+  top: -5px; }
+
+.product-category-contain .category-header .page-filter-sorting .page-filter-fields {
+  color: #575757; }
+  .product-category-contain .category-header .page-filter-sorting .page-filter-fields .select2-selection__arrow {
+    color: #a7a7a7; }
+
+/* Product Filter Section */
+.product-filter-contain .product-filter .filter-contain {
+  margin-bottom: 0px; }
+  .product-filter-contain .product-filter .filter-contain h2 {
+    color: #323232;
+    font-size: 14px;
+    font-family: 'ProximaBold', serif;
+    margin-bottom: 14px; }
+  .product-filter-contain .product-filter .filter-contain ul {
+    margin-bottom: 8px; }
+    .product-filter-contain .product-filter .filter-contain ul li.filtered-categories {
+      border-radius: 100px;
+      background-color: #f5f5f5;
+      font-family: 'ProximaBold', serif;
+      font-size: 14px; }
+  .product-filter-contain .product-filter .filter-contain .filter-keyword-field .btn {
+    background-color: #cf0974; }
+    .product-filter-contain .product-filter .filter-contain .filter-keyword-field .btn:hover {
+      background-color: #9e0759; }
+
+.product-filter-contain .product-filter .filter-list ul.sidebar-ul.categories {
+  margin-bottom: -15px !important; }
+  .product-filter-contain .product-filter .filter-list ul.sidebar-ul.categories li {
+    font-size: 14px;
+    color: #666666;
+    line-height: 3.29; }
+    .product-filter-contain .product-filter .filter-list ul.sidebar-ul.categories li a .filter-badge {
+      background: #ffffff;
+      color: #323232;
+      font-size: 13px; }
+      .product-filter-contain .product-filter .filter-list ul.sidebar-ul.categories li a .filter-badge:hover {
+        color: #cf0974; }
+
+.product-filter-contain .product-filter .filter-contain .range-slider {
+  margin-top: 25px; }
+  .product-filter-contain .product-filter .filter-contain .range-slider .noUi-target {
+    padding: 0; }
+    .product-filter-contain .product-filter .filter-contain .range-slider .noUi-target .noUi-base {
+      border-radius: 100px;
+      background-color: rgba(207, 9, 116, 0.1);
+      padding: 0 !important; }
+      .product-filter-contain .product-filter .filter-contain .range-slider .noUi-target .noUi-base .noUi-origin .noUi-handle,
+      .product-filter-contain .product-filter .filter-contain .range-slider .noUi-target .noUi-base .noUi-connect {
+        background-color: #cf0974; }
+      .product-filter-contain .product-filter .filter-contain .range-slider .noUi-target .noUi-base .noUi-handle {
+        width: 6px;
+        height: 24px;
+        border-radius: 100px;
+        left: 0 !important;
+        top: -8px !important; }
+        .product-filter-contain .product-filter .filter-contain .range-slider .noUi-target .noUi-base .noUi-handle:active {
+          border: 0 !important; }
+
+.product-filter-contain .product-filter .filter-contain .filter-price-fields .input-group {
+  height: auto !important;
+  padding: 0; }
+  .product-filter-contain .product-filter .filter-contain .filter-price-fields .input-group span {
+    top: 13px;
+    font-size: 14px;
+    color: #575757;
+    font-family: 'ProximaBold', serif; }
+  .product-filter-contain .product-filter .filter-contain .filter-price-fields .input-group input {
+    font-size: 14px;
+    color: #575757; }
+  .product-filter-contain .product-filter .filter-contain .filter-price-fields .input-group span ~ span {
+    top: 15px;
+    font-size: 12px; }
+
+.support {
+  height: auto;
+  padding-top: 85px;
+  padding-bottom: 48px;
+  background-color: #f5f5f5;
+  position: relative; }
+  .support img {
+    position: absolute;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto;
+    top: -50px; }
+  .support .container, .support .banner-boxed {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .support .container .support-content-container, .support .banner-boxed .support-content-container {
+      min-width: calc(100%-590px);
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: center; }
+      .support .container .support-content-container h1, .support .banner-boxed .support-content-container h1 {
+        font-size: 30px;
+        color: #575757;
+        font-family: 'ProximaBold', serif;
+        margin-top: 0px;
+        margin-bottom: 7px; }
+      .support .container .support-content-container p, .support .banner-boxed .support-content-container p {
+        font-size: 18px;
+        line-height: 1.33;
+        color: #666666;
+        margin-bottom: 36px; }
+      .support .container .support-content-container a div, .support .banner-boxed .support-content-container a div {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 16px;
+        padding-bottom: 17px;
+        background-color: #cf0974; }
+        .support .container .support-content-container a div:hover, .support .banner-boxed .support-content-container a div:hover {
+          background-color: #9e0759; }
+        .support .container .support-content-container a div p, .support .banner-boxed .support-content-container a div p {
+          font-size: 12px;
+          color: #ffffff;
+          font-family: 'ProximaBold', serif;
+          margin: 0 !important; }

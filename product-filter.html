@@ -430,7 +430,7 @@
                             <span class="filter-results-num">15 results found</span>
                         </h1>
                         <div class="page-filter-sorting">
-                            <a href="product-compare.html" class="lnk-compare">Product Compare (4)</a>
+                            <!-- <a href="product-compare.html" class="lnk-compare">Product Compare (4)</a> -->
                             <div class="page-filter-fields">
                                 <div class="form-group select-filter-sort-by">
                                     <label class="control-label">Sort by:</label>
@@ -456,13 +456,15 @@
                                     <a href="#" class="btn">Go</a>
                                 </div>
                             </div>
+                            <hr />
                             <!-- filter by category -->
-                            <div class="filter-contain">
+                            <div class="filter-contain" id="filter-category">
                                 <h2>Filter by category</h2>
                                 <ul class="sidebar-ul filter">
                                     <li class="filtered-categories">HP Cartridges <a href="javascript:;"><i class="fa fa-times"></i></a></li>
                                 </ul>
-                                <div class="filter-scroll">
+                                <!-- <div class="filter-scroll"> -->
+                                <div class="filter-list">
                                     <ul class="sidebar-ul categories">
                                         <li><a href="#">HP Business InkJet Ink<span class="filter-badge">12</span></a></li>
                                         <li><a href="#">HP CP Ink<span class="filter-badge">52</span></a></li>
@@ -474,8 +476,9 @@
                                     </ul>
                                 </div>
                             </div>
+                            <hr />
                             <!-- filter by price -->
-                            <div class="filter-contain">
+                            <div class="filter-contain" id="filter-price-fields">
                                 <h2>Filter by price</h2>
                                 <div class="range-slider clearfix">
                                     <div id="slider-range"></div>
@@ -497,10 +500,11 @@
                                     </div>
                                 </div>
                             </div>
+                            <hr />
                             <!-- filter by item status -->
-                            <div class="filter-contain">
+                            <div class="filter-contain" id="filter-item-status">
                                 <h2>Filter by item status</h2>
-                                <div class="filter-scroll">
+                                <div class="filter-list">
                                     <ul class="sidebar-ul categories">
                                         <li><a href="#">Sale Items<span class="filter-badge">12</span></a></li>
                                         <li><a href="#">Clearance Items<span class="filter-badge">52</span></a></li>
@@ -534,212 +538,182 @@
                                     </div>
                                 </div>
                                 <div class="col-xs-6 col-sm-4">
-                                    <div class="category-filter-box" data-mh="category-filter-box">
-                                        <a href="#">
-                                            <div class="category-filter-box-img-contain">
-                                                <div class="category-filter-box-img" role="img" aria-label="Accessible Name" style="background-image: url(images/category-laptops.png);"></div>
-                                            </div>
-                                            <div class="category-filter-box-detail">
-                                                <h2>HP CP</h2>
-                                            </div>
-                                        </a>
-                                    </div>
+                                  <div class="category-filter-box" data-mh="category-filter-box">
+                                      <a href="#">
+                                          <div class="category-filter-box-content-contain">
+                                              <div class="category-filter-box-img">
+                                                <img src="./images/svgs/ink-cartridge-refill.svg" alt="ink cartridge refill">
+                                              </div>
+                                              <div class="category-filter-box-title">
+                                                  <h2>HP CP</h2>
+                                              </div>
+                                              <div class="category-filter-box-expand">
+                                                <p>Ink Cartridges</p>
+                                              </div>
+                                          </div>
+
+                                      </a>
+                                      <div class="category-filter-box-color-options">
+                                        <img src="./images/svgs/ink-cartridge-colors.svg" alt="ink cartridge color drops">
+                                      </div>
+                                  </div>
                                 </div>
                                 <div class="col-xs-6 col-sm-4">
-                                    <div class="category-filter-box" data-mh="category-filter-box">
-                                        <a href="#">
-                                            <div class="category-filter-box-img-contain">
-                                                <div class="category-filter-box-img" role="img" aria-label="Accessible Name" style="background-image: url(images/category-accessories.png);"></div>
-                                            </div>
-                                            <div class="category-filter-box-detail">
-                                                <h2>HP Color Copier</h2>
-                                            </div>
-                                        </a>
-                                    </div>
+                                  <div class="category-filter-box" data-mh="category-filter-box">
+                                      <a href="#">
+                                          <div class="category-filter-box-content-contain">
+                                              <div class="category-filter-box-img">
+                                                <img src="./images/svgs/ink-cartridge-refill.svg" alt="ink cartridge refill">
+                                              </div>
+                                              <div class="category-filter-box-title">
+                                                  <h2>HP Color Copier</h2>
+                                              </div>
+                                              <div class="category-filter-box-expand">
+                                                <p>Ink Cartridges</p>
+                                              </div>
+                                          </div>
+
+                                      </a>
+                                      <div class="category-filter-box-color-options">
+                                        <img src="./images/svgs/ink-cartridge-colors.svg" alt="ink cartridge color drops">
+                                      </div>
+                                  </div>
                                 </div>
                                 <div class="col-xs-6 col-sm-4">
-                                    <div class="category-filter-box" data-mh="category-filter-box">
-                                        <a href="#">
-                                            <div class="category-filter-box-img-contain">
-                                                <div class="category-filter-box-img" role="img" aria-label="Accessible Name" style="background-image: url(images/category-monitors.png);"></div>
-                                            </div>
-                                            <div class="category-filter-box-detail">
-                                                <h2>HP Color InkJet</h2>
-                                            </div>
-                                        </a>
-                                    </div>
+                                  <div class="category-filter-box" data-mh="category-filter-box">
+                                      <a href="#">
+                                          <div class="category-filter-box-content-contain">
+                                              <div class="category-filter-box-img">
+                                                <img src="./images/svgs/ink-cartridge-refill.svg" alt="ink cartridge refill">
+                                              </div>
+                                              <div class="category-filter-box-title">
+                                                  <h2>HP Color InkJet</h2>
+                                              </div>
+                                              <div class="category-filter-box-expand">
+                                                <p>Ink Cartridges</p>
+                                              </div>
+                                          </div>
+
+                                      </a>
+                                      <div class="category-filter-box-color-options">
+                                        <img src="./images/svgs/ink-cartridge-colors.svg" alt="ink cartridge color drops">
+                                      </div>
+                                  </div>
                                 </div>
-
-                            </div>
-                            <div class="row">
-
-
-
-
+                            <!-- </div>
+                            <div class="row"> -->
 
                                 <div class="col-xs-6 col-sm-4">
-                                    <div class="product-box-contain">
-                                        <div class="infos-contain">
-                                            <button class="btn btn-infos dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <i class="fa fa-ellipsis-v"></i>
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#"><i class="fa fa-line-chart"></i>Check Stock</a></li>
-                                                <li><a href="#"><i class="fa fa-edit"></i>Get a Quote</a></li>
-                                            </ul>
-                                        </div>
-                                        <a href="product-detail.html" class="product-box">
-                                            <div class="product-box-img-contain">
-                                            <div class="product-box-img" role="img" aria-label="Accessible Name" style="background-image: url(images/placeholders/laptop-stand.jpg);"></div>
-                                                </div>
-                                            <div class="product-box-detail">
-                                                <h3>Adjustable USB 2 Fans Notebook PC Laptop Stands</h3>
+                                  <div class="category-filter-box" data-mh="category-filter-box">
+                                      <a href="#">
+                                          <div class="category-filter-box-content-contain">
+                                              <div class="category-filter-box-img">
+                                                <img src="./images/svgs/ink-cartridge-refill.svg" alt="ink cartridge refill">
+                                              </div>
+                                              <div class="category-filter-box-title">
+                                                  <h2>HP Color LaserJet</h2>
+                                              </div>
+                                              <div class="category-filter-box-expand">
+                                                <p>Ink Cartridges</p>
+                                              </div>
+                                          </div>
 
-                                                    <span class="product-box-price">R250.00</span>
-                                                    <span class="product-box-prev-price">R350.00</span>
-
-                                            </div>
-                                        </a>
-                                      <!--<a href="#" class="lnk-add-compare"><i class="fa fa-exchange"></i><span class="add-compare-text">Add to Compare</span></a>-->
-                                    </div>
+                                      </a>
+                                      <div class="category-filter-box-color-options">
+                                        <img src="./images/svgs/ink-cartridge-colors.svg" alt="ink cartridge color drops">
+                                      </div>
+                                  </div>
                                 </div>
                                 <div class="col-xs-6 col-sm-4">
-                                    <div class="product-box-contain">
-                                        <div class="infos-contain">
-                                            <button class="btn btn-infos dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <i class="fa fa-ellipsis-v"></i>
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#"><i class="fa fa-line-chart"></i>Check Stock</a></li>
-                                                <li><a href="#"><i class="fa fa-edit"></i>Get a Quote</a></li>
-                                            </ul>
-                                        </div>
-                                        <a href="product-detail.html" class="product-box">
-                                            <div class="product-box-img-contain">
-                                            <div class="product-box-img" role="img" aria-label="Accessible Name" style="background-image: url(images/placeholders/Privacy-Filter-Screen.jpg);"></div>
-                                                </div>
-                                            <div class="product-box-detail">
-                                                <h3>25 inch Privacy Filter Screen Protective film for Desktop</h3>
+                                  <div class="category-filter-box" data-mh="category-filter-box">
+                                      <a href="#">
+                                          <div class="category-filter-box-content-contain">
+                                              <div class="category-filter-box-img">
+                                                <img src="./images/svgs/ink-cartridge-refill.svg" alt="ink cartridge refill">
+                                              </div>
+                                              <div class="category-filter-box-title">
+                                                  <h2>HP DesignJet</h2>
+                                              </div>
+                                              <div class="category-filter-box-expand">
+                                                <p>Ink Cartridges</p>
+                                              </div>
+                                          </div>
 
-
-                                                    <span class="product-box-price">R250.00</span>
-                                                    <span class="product-box-prev-price">R350.00</span>
-
-                                            </div>
-                                        </a>
-
-                                    </div>
+                                      </a>
+                                      <div class="category-filter-box-color-options">
+                                        <img src="./images/svgs/ink-cartridge-colors.svg" alt="ink cartridge color drops">
+                                      </div>
+                                  </div>
                                 </div>
                                 <div class="col-xs-6 col-sm-4">
-                                    <div class="product-box-contain">
-                                        <div class="infos-contain">
-                                            <button class="btn btn-infos dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <i class="fa fa-ellipsis-v"></i>
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#"><i class="fa fa-line-chart"></i>Check Stock</a></li>
-                                                <li><a href="#"><i class="fa fa-edit"></i>Get a Quote</a></li>
-                                            </ul>
-                                        </div>
-                                        <a href="product-detail.html" class="product-box">
-                                            <div class="product-box-img-contain">
-                                            <div class="product-box-img" role="img" aria-label="Accessible Name" style="background-image: url(images/placeholders/160600-VERSAILLES.png);"></div>
-                                                </div>
-                                            <div class="product-box-detail">
-                                                <h3>Versailles 15,6" Laptop Bag</h3>
+                                  <div class="category-filter-box" data-mh="category-filter-box">
+                                      <a href="#">
+                                          <div class="category-filter-box-content-contain">
+                                              <div class="category-filter-box-img">
+                                                <img src="./images/svgs/ink-cartridge-refill.svg" alt="ink cartridge refill">
+                                              </div>
+                                              <div class="category-filter-box-title">
+                                                  <h2>HP Business InkJet</h2>
+                                              </div>
+                                              <div class="category-filter-box-expand">
+                                                <p>Ink Cartridges</p>
+                                              </div>
+                                          </div>
 
-                                                <span class="product-box-price">R700.00</span>
-                                                <span class="product-box-prev-price">R800.00</span>
-                                            </div>
-                                        </a>
-                                        <!--<a href="product-compare.html" class="lnk-added-to-compare"><i class="fa fa-check"></i><span class="add-compare-text">Added to Compare</span></a>-->
-                                    </div>
+                                      </a>
+                                      <div class="category-filter-box-color-options">
+                                        <img src="./images/svgs/ink-cartridge-colors.svg" alt="ink cartridge color drops">
+                                      </div>
+                                  </div>
                                 </div>
                                 <div class="col-xs-6 col-sm-4">
-                                    <div class="product-box-contain">
-                                        <div class="infos-contain">
-                                            <button class="btn btn-infos dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <i class="fa fa-ellipsis-v"></i>
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#"><i class="fa fa-line-chart"></i>Check Stock</a></li>
-                                                <li><a href="#"><i class="fa fa-edit"></i>Get a Quote</a></li>
-                                            </ul>
-                                        </div>
-                                        <span class="product-badge top-pick-badge"><span class="product-badge-inner">Top Pick</span></span>
-                                        <a href="product-detail.html" class="product-box">
-                                            <div class="product-box-img-contain">
-                                            <div class="product-box-img" role="img" aria-label="Accessible Name" style="background-image: url(images/placeholders/orico-usb.jpg);"></div>
-                                                </div>
-                                            <div class="product-box-detail">
-                                                <h3>ORICO H10C1-U3-BK Super Speed USB 3.0</h3>
+                                  <div class="category-filter-box" data-mh="category-filter-box">
+                                      <a href="#">
+                                          <div class="category-filter-box-content-contain">
+                                              <div class="category-filter-box-img">
+                                                <img src="./images/svgs/ink-cartridge-refill.svg" alt="ink cartridge refill">
+                                              </div>
+                                              <div class="category-filter-box-title">
+                                                  <h2>HP CP</h2>
+                                              </div>
+                                              <div class="category-filter-box-expand">
+                                                <p>Ink Cartridges</p>
+                                              </div>
+                                          </div>
 
-                                                <span class="product-box-price">R500.00</span>
-                                                <span class="product-box-prev-price">R670.00</span>
-                                            </div>
-                                        </a>
-                                        <!--<a href="product-compare.html" class="lnk-added-to-compare"><i class="fa fa-check"></i><span class="add-compare-text">Added to Compare</span></a>-->
-                                    </div>
+                                      </a>
+                                      <div class="category-filter-box-color-options">
+                                        <img src="./images/svgs/ink-cartridge-colors.svg" alt="ink cartridge color drops">
+                                      </div>
+                                  </div>
                                 </div>
                                 <div class="col-xs-6 col-sm-4">
-                                    <div class="product-box-contain">
-                                        <div class="infos-contain">
-                                            <button class="btn btn-infos dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <i class="fa fa-ellipsis-v"></i>
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#"><i class="fa fa-line-chart"></i>Check Stock</a></li>
-                                                <li><a href="#"><i class="fa fa-edit"></i>Get a Quote</a></li>
-                                            </ul>
-                                        </div>
-                                        <span class="product-badge sale-badge"><span class="product-badge-inner">46% Off</span></span>
-                                        <span class="product-badge top-pick-badge"><span class="product-badge-inner">Top Pick</span></span>
-                                        <span class="product-badge no-stock-badge"><span class="product-badge-inner">Sold Out</span></span>
-                                        <a href="product-detail.html" class="product-box">
-                                            <div class="product-box-img-contain">
-                                            <div class="product-box-img" role="img" aria-label="Accessible Name" style="background-image: url(images/placeholders/keyboard.png);"></div>
-                                                </div>
-                                            <div class="product-box-detail">
-                                                <h3>COUGAR 700K Mechanical Gaming Keyboard</h3>
+                                  <div class="category-filter-box" data-mh="category-filter-box">
+                                      <a href="#">
+                                          <div class="category-filter-box-content-contain">
+                                              <div class="category-filter-box-img">
+                                                <img src="./images/svgs/ink-cartridge-refill.svg" alt="ink cartridge refill">
+                                              </div>
+                                              <div class="category-filter-box-title">
+                                                  <h2>HP Color Copier</h2>
+                                              </div>
+                                              <div class="category-filter-box-expand">
+                                                <p>Ink Cartridges</p>
+                                              </div>
+                                          </div>
 
-                                                <span class="product-box-price">R1300.00</span>
-                                                <span class="product-box-prev-price">R1400.00</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
-                                </div>
-                                <div class="col-xs-6 col-sm-4">
-                                    <div class="product-box-contain">
-                                        <div class="infos-contain">
-                                            <button class="btn btn-infos dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <i class="fa fa-ellipsis-v"></i>
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#"><i class="fa fa-line-chart"></i>Check Stock</a></li>
-                                                <li><a href="#"><i class="fa fa-edit"></i>Get a Quote</a></li>
-                                            </ul>
-                                        </div>
-                                        <a href="product-detail.html" class="product-box">
-                                            <div class="product-box-img-contain">
-                                            <div class="product-box-img" role="img" aria-label="Accessible Name" style="background-image: url(images/base/no-product.png);"></div>
-                                                </div>
-                                            <div class="product-box-detail">
-                                                <h3>23.3inch 1920X1080 all in one PC computer</h3>
-
-                                                <span class="product-box-price">R2500.00</span>
-                                                <span class="product-box-prev-price">R2800.00</span>
-                                            </div>
-                                        </a>
-
-                                    </div>
+                                      </a>
+                                      <div class="category-filter-box-color-options">
+                                        <img src="./images/svgs/ink-cartridge-colors.svg" alt="ink cartridge color drops">
+                                      </div>
+                                  </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12 text-center">
                                     <a href="javascript:;" class="btn">Load More</a>
 
-                                    <p class="filter-end-list">No more products available</p>
+                                    <!-- <p class="filter-end-list">No more products available</p> -->
                                 </div>
                             </div>
                         </div>
@@ -750,79 +724,146 @@
     </main>
     <!-- main content ends -->
 
-    <div class="section-newsletter">
-        <div class="container">
-            <div class="newsletter-inner">
-                <h2><i class="fa fa-envelope-o"></i>Subscribe to our newsletter</h2>
-                <div class="newsletter-contain">
-                    <div class="input-group">
-                        <input type="email" class="form-control" placeholder="Email Address">
-                        <div class="input-group-addon">
-                            <button type="submit" class="btn">Sign Up</button>
-                        </div>
+    <!-- start of support section -->
+    <section class="support">
+      <img src="images/svgs/message-bubble.svg" alt="messaging bubble icon" />
+      <div class="container">
+        <div class="support-content-container">
+          <h1>Need assistance? We'd love to help.</h1>
+          <p>Our Help Centre offers support and guidance on all of our products and service offerings.</p>
+          <a href="#">
+            <div>
+              <p>Support &amp; FAQs</p>
+            </div>
+          </a>
+        </div class="support-content-container">
+      </div>
+    </section>
+    <!-- end of support section -->
+
+    <!-- start of newsletter section -->
+    <section class="newsletter">
+      <div class="container">
+        <div class="newsletter-content-container">
+            <div class="newsletter-info">
+              <div class="newsletter-image">
+                <img src="./images/svgs/envelope.svg" alt="Envelope">
+              </div>
+              <div class="newsletter-text">
+                <h3>Want to receive our special products?</h3>
+                <p>Sign up to our newsletter to get exclusive deals from Inksaver.</p>
+              </div>
+            </div>
+            <div class="newsletter-contain">
+                <div class="input-group">
+                    <input type="email" class="form-control" placeholder="Email Address">
+
+                    <div class="input-group-addon">
+                        <button type="submit" class="btn">Sign Me Up</button>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+      </div>
+    </section>
+    <!-- end of newsletter section -->
 
     <!-- footer starts -->
     <footer class="footer">
         <div class="footer-top">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-md-3">
-                        <span class="footer-title">Site Map</span>
-                        <ul class="footer-list">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Specials</a></li>
-                            <li><a href="#">Categories</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
+                  <div class="col-md-4 col-sm-5 col-xs-12">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-sm-5 col-xs-5">
+                          <div class="row" id="site-map-list-1">
+                            <span class="footer-title">Site Map</span>
+                            <ul class="footer-list">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Specials</a></li>
+                                <li><a href="#">Categories</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-sm-7 col-xs-7">
+                          <div class="row" id="site-map-list-2">
+                            <ul style="margin-top: 32px" class="footer-list">
+                                <li><a href="#">Support &amp; FAQ</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Smart Office Solutions</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
-                        <span class="footer-title">Policies</span>
-                        <ul class="footer-list">
-                            <li><a href="#">Terms &amp; Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                        </ul>
+                  </div>
+
+                  <div class="col-md-8 col-sm-7 col-xs-12">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-sm-6 col-xs-5">
+                          <div class="row"  id="policies-list">
+                            <span class="footer-title">Policies</span>
+                            <ul class="footer-list">
+                                <li><a href="#">Terms &amp; Conditions</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Returns Policy</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-7">
+                          <div class="row" id="connect-list">
+                            <span class="footer-title">Connect</span>
+                            <ul class="footer-social">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="col-sm-6 col-md-3">
-                        <span class="footer-title">4 Columns</span>
-                        <ul class="footer-list">
-                            <li><a href="#">Link</a></li>
-                            <li><a href="#">Link</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6 col-md-3">
-                        <span class="footer-title">Connect</span>
-                        <ul class="footer-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        </ul>
-                    </div>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12">
+                  <ul class="payment-methods">
+                      <li><img src="images/paymentmethods/visa/visa-inc-logo.png" width="43" height="14" alt="Visa"></li>
+                      <li><img src="images/paymentmethods/mastercard/master-card-logo.png" width="31" height="19" alt="MasterCard"></li>
+                      <li><img src="images/paymentmethods/eft/eft-logo.png" width="31" height="19" alt="EFT"></li>
+
+                  </ul>
                 </div>
+              </div>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <p>Copyright &copy; <span class="copyright-year"></span> heidi-store4. All rights reserved.</p>
-                <ul class="payment-methods">
-                    <li><img src="images/base/visa.png" width="43" height="14" alt="Visa"></li>
-                    <li><img src="images/base/master-card.png" width="31" height="19" alt="MasterCard"></li>
-                    <li>EFT</li>
-                    <li><img src="images/base/snapscan.png" width="90" height="19" alt="SnapScan"></li>
-                </ul>
-            </div>
-        </div>
+          </div>
+          <div class="footer-bottom">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-5">
+                    <p>&copy; <span class="copyright-year"></span> Inksaver CC 2017</p>
+                  </div>
+                  <div class="col-xs-7">
+                    <ul class="footer-bottom-policies">
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                        <li style="color: rgba(255,255,255,0.6) !important;">|</li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <p>Brother, Canon, Epson, HP, Kyocera, Lexmark, Oki, Samsung, Xerox and other manufacturer brand names and logos are registered trademarks of their respective owners who have no association with or make any endorsement of the products or services provided by InkSaver.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
     </footer>
     <!-- footer ends -->
+
     <!-- Scripts -->
     <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
