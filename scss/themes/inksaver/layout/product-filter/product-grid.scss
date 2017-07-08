@@ -167,7 +167,6 @@
 
     .filter-list { //.filter-scroll
       ul.sidebar-ul.categories {
-        // margin-bottom: 18px;
         margin-bottom: -15px !important;
 
         li {
@@ -175,13 +174,20 @@
           color: #666666;
           line-height: 3.29;
 
-          a .filter-badge {
-            background: #ffffff;
-            color: #323232;
-            font-size: 13px;
+          a {
 
             &:hover {
               color: #cf0974;
+
+              .filter-badge {
+                color: #cf0974;
+              }
+            }
+
+            .filter-badge {
+            background: #ffffff;
+            color: #323232;
+            font-size: 13px;
             }
           }
         }

@@ -205,12 +205,3 @@
     padding-bottom: 0;
   }
 }
-
-.navbar .navbar-ctas #navbar .navbar-nav .dropdown .dropdown-toggle {
-
-  i {
-    @media screen and (max-width: 1200px) and (min-width: 1000px) {
-      transform: rotate(-90deg);
-    }
-  }
-}

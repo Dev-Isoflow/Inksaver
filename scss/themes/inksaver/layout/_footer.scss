@@ -54,6 +54,7 @@ ul.footer-list li a {
 .footer-social a .fa {
   background-color: rgba(0,0,0,0.1);
   color: #ffffff;
+  font-size: 20px;
 
   &:hover {
     background-color: rgba(0,0,0,0.4);
@@ -63,7 +64,7 @@ ul.footer-list li a {
 .footer .footer-top {
 
   border-top: 0;
-  
+
   .col-xs-5, .col-xs-7 {
 
     @media screen and (max-width: 768px) {
