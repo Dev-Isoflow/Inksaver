@@ -1,4 +1,4 @@
-.support {
+.support, .contact-us {
   height: auto;
   padding-top: 85px;
   padding-bottom: 48px;
@@ -18,7 +18,7 @@
     justify-content: center;
     align-items: center;
 
-    .support-content-container {
+    .content-container {
       min-width: calc(100%-590px);
       display: flex;
       flex-direction: column;

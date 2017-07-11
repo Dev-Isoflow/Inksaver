@@ -24,6 +24,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 74.6px;
 
   p {
     font-size: 16px;
@@ -81,14 +82,6 @@
       padding-left: 14.4px;
       padding-right: 14.4px;
 
-      a img {
-        color: #989494 !important;
-
-        &:hover {
-          color: #3e82f7 !important;
-        }
-      }
-
       a i {
         color: #989494 !important;
         font-size: 25px;
@@ -96,6 +89,15 @@
 
         &:hover {
           color: #3e82f7 !important;
+        }
+      }
+
+      @media screen and (max-width: 867px) and (min-width: 768px) {
+        padding-left: 10px;
+        padding-right: 10px;
+
+        a i {
+          font-size: 20px;
         }
       }
     }
@@ -167,6 +169,8 @@
   }
 
   .blog-list {
+    margin-bottom: 0px;
+
     a {
       border: 0;
       text-transform: none;
@@ -193,4 +197,8 @@
   hr {
     margin: 0 !important;
   }
+}
+
+.horizontal-product-carousel#recommended {
+  padding-top: 0;
 }
