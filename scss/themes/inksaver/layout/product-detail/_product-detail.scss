@@ -16,6 +16,10 @@
 
 .product-detail-information {
 
+  @media screen and (max-width: 959px) {
+    margin-bottom: 0px;
+  }
+
   .product-detail-header {
     margin-bottom: 27px;
     padding-bottom: 0;
@@ -337,8 +341,6 @@
   }
 
   .thumbnail-slider-nav {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
     margin-top: 18px;
 
     .thumbnail-slider-nav-inner {
@@ -351,17 +353,6 @@
       .slick-current {
         .thumbnail-nav-img {
           border: solid 1px #989494;
-        }
-      }
-
-      .slick-slide {
-        margin-left: 0 !important;
-        margin-right: 10px !important;
-        width: 80px !important;
-
-        .thumbnail-nav-img {
-          height: 80px !important;
-          width: 80px !important;
         }
       }
     }

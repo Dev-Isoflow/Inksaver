@@ -96,6 +96,10 @@
       font-family: 'ProximaBold', serif;
       color: #575757;
       margin-right: 0;
+
+      @media screen and (max-width: 410px) {
+        font-size: 24px;
+      }
     }
     .filter-results-num {
       width: auto !important;
@@ -114,11 +118,20 @@
       margin-top: 0;
       margin-left: 24px;
       top: -5px;
+
+      @media screen and (max-width: 410px) {
+        padding-top:7px;
+        padding-bottom: 7px;
+        font-size: 10px;
+      }
     }
 
     .page-filter-sorting {
       .page-filter-fields {
         color: #575757;
+        .btn {
+          padding-left: 30px !important;
+        }
 
         .select2-selection__arrow {
           color: #a7a7a7;

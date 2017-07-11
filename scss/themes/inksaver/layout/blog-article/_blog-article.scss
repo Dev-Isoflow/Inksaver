@@ -92,7 +92,7 @@
         }
       }
 
-      @media screen and (max-width: 867px) and (min-width: 768px) {
+      @media screen and (max-width: 1200px) and (min-width: 768px) {
         padding-left: 10px;
         padding-right: 10px;
 
@@ -191,8 +191,6 @@
   }
 }
 
-
-
 .blog-sidebar {
   hr {
     margin: 0 !important;
@@ -201,4 +199,8 @@
 
 .horizontal-product-carousel#recommended {
   padding-top: 0;
+}
+
+@media screen and (max-width: 767px) {
+  
 }

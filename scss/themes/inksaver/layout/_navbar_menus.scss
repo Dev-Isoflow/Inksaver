@@ -1,5 +1,5 @@
 .inkandtoner-menu.dropdown-menu {
-  width: 400%;
+  width: 500%;
 }
 
 .officesupplies-menu.dropdown-menu {
@@ -7,7 +7,7 @@
 }
 
 .paper-menu.dropdown-menu {
-  width: 600%;
+  width: 700%;
 }
 
 .cleaningmaterials-menu.dropdown-menu {
@@ -206,24 +206,24 @@ li.dropdown, li.dropdown.open {
       }
     }
 
-    .dropdown:hover {
-      .dropdown-menu {
-        display: none !important;
-      }
-    }
-
-    .dropdown.open {
-      .dropdown-menu, .dropdown-menu:hover {
-        display: block !important;
-
-      }
-    }
-
-    .dropdown.open:hover {
-      .dropdown-menu {
-        display: block !important;
-      }
-    }
+    // .dropdown:hover {
+    //   .dropdown-menu {
+    //     display: none !important;
+    //   }
+    // }
+    //
+    // .dropdown.open {
+    //   .dropdown-menu, .dropdown-menu:hover {
+    //     display: block !important;
+    //
+    //   }
+    // }
+    //
+    // .dropdown.open:hover {
+    //   .dropdown-menu {
+    //     display: block !important;
+    //   }
+    // }
   }
 }
 
@@ -240,7 +240,7 @@ li.dropdown, li.dropdown.open {
   .header-a .navbar .banner-boxed .navbar-ctas,
   .header-a .navbar .container .navbar-ctas {
     padding-left: 0;
-    width: 290px !important;
+    width: 295px !important;
     position: static;
     right: 0;
 
@@ -249,9 +249,9 @@ li.dropdown, li.dropdown.open {
     }
   }
 
-  .dropdown:hover .dropdown-menu {
-    display: block !important;
-  }
+  // .dropdown:hover .dropdown-menu {
+  //   display: block !important;
+  // }
 }
 @media screen and (max-width: 892px) {
   #navbar ul.nav.navbar-nav li a {
