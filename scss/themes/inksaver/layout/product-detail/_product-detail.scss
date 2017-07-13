@@ -2,6 +2,14 @@
   margin-top: 48px;
   margin-bottom: 49px;
 
+  // .breadcrumb li:last-child {
+  //
+  //   @media screen and (max-width: 767px){
+  //     width: auto !important;
+  //     max-width: none !important;
+  //   }
+  // }
+
   ol li {
     font-size: 12px;
     font-family: 'ProximaBold', serif;
@@ -10,6 +18,8 @@
 
     &:last-child {
       overflow: visible;
+      width: auto !important;
+      max-width: none !important;
     }
   }
 }
@@ -247,7 +257,11 @@
 }
 
 #product-details-target {
-  ul {
+  ul.nav-tabs {
+    display: flex !important;
+    box-shadow: none !important;
+    margin-bottom: 0 !important;
+
     li {
       a {
         padding-top: 18px;
@@ -258,13 +272,11 @@
         color: #323232;
         font-family: 'ProximaBold', serif;
         border-bottom: 0 !important;
+        height: 100%;
+        display: flex;
+        align-items: center;
       }
     }
-  }
-
-  .nav-tabs {
-    box-shadow: none !important;
-    margin-bottom: 0 !important;
   }
 
   .nav-tabs > li.active > a,

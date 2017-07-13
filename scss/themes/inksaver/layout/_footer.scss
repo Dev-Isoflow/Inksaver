@@ -45,10 +45,14 @@
   }
 }
 
-ul.footer-list li a {
-  color: rgba(255,255,255,0.72);
-  line-height: 2.86;
-  font-size: 14px;
+ul.footer-list li {
+  padding: 3px 0;
+
+  a {
+    color: rgba(255,255,255,0.72);
+    line-height: 2.86;
+    font-size: 14px;
+  }
 }
 
 .footer-social a .fa {

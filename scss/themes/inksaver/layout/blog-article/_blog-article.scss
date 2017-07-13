@@ -158,7 +158,7 @@
   padding-bottom: 36px;
 
   .blog-archives-title {
-    padding-bottom: 12px;
+    margin-bottom: 12px;
 
     h3 {
       font-size: 14px;
@@ -179,6 +179,7 @@
       font-size: 16px;
       line-height: 2.38;
       color: #666666;
+      padding: 1px 0;
 
       &:hover {
         color: #0fa0da;
@@ -186,6 +187,22 @@
 
       .archive-num {
         font-family: 'ProximaBold', serif;
+      }
+    }
+
+    .col-sm-12, .col-xs-4 {
+      padding-left: 0px !important;
+    }
+
+    @media screen and (max-width: 550px) {
+      .col-xs-4 {
+        width: 50% !important;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .col-xs-4 {
+        width: 100% !important;
       }
     }
   }
@@ -202,5 +219,5 @@
 }
 
 @media screen and (max-width: 767px) {
-  
+
 }
