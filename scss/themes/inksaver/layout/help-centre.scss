@@ -12,10 +12,6 @@
       margin-bottom: 4px;
     }
   }
-
-  .help-centre-content {
-
-  }
 }
 
 .support-faq-section {
@@ -56,10 +52,18 @@
       padding-top: 18px;
       padding-bottom: 18.5px;
       padding-left: 20px;
-      padding-right: 20px;
+      padding-right: 55px;
+      position: relative;
+
+      .menu-collapse-state {
+        position: absolute;
+        right: 0;
+        top: 14px;
+        padding-right: 14px;
+      }
+
 
       i {
-        float: right;
         color: #a7a7a7;
         transition: 0.2s;
       }
@@ -73,8 +77,6 @@
     transition: 0.2s;
     border: 0;
     float: none !important;
-    // padding-top: 20px;
-    // padding-bottom: 14px;
     display: block !important;
     height: 0;
     padding: 0;
@@ -150,16 +152,12 @@
     .blog-widget-article-preview {
       margin-bottom: 67px;
       border: solid 1px #dddddd;
-      // min-width: 360px !important;
-      // max-height: 262px !important;
-      height: 262px !important;
-      // max-width: 360px !important;
-      // max-height: 262px !important;
       position: relative;
 
       &.blog-image-preview {
         background-size: cover !important;
         background-position: center !important;
+        height: 272px !important;
 
         &> p {
           font-size: 16px;
@@ -186,6 +184,7 @@
         background-color: #fafafa;
         padding: 20px;
         padding-top: 19px;
+        height: auto !important;
 
         .blog-text-preview-header {
           display: flex;
@@ -216,25 +215,28 @@
           display: flex;
           align-items: center;
 
-          .article-tag {
-            border-radius: 100px;
-            background-color: #ffffff;
-            border: solid 1px #dddddd;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-left: 11px;
-            padding-right: 11px;
-            padding-top: 4px;
-            padding-bottom: 3px;
+          a {
             margin-right: 8px;
 
-            p {
-              font-size: 11px;
-              font-family: 'ProximaBold', serif;
-              color: #575757;
-              margin: 0;
-              text-transform: uppercase;
+            .article-tag {
+              border-radius: 100px;
+              background-color: #ffffff;
+              border: solid 1px #dddddd;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding-left: 11px;
+              padding-right: 11px;
+              padding-top: 4px;
+              padding-bottom: 3px;
+
+              p {
+                font-size: 11px;
+                font-family: 'ProximaBold', serif;
+                color: #575757;
+                margin: 0;
+                text-transform: uppercase;
+              }
             }
           }
         }

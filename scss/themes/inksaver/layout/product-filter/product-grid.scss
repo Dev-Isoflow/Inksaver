@@ -1,7 +1,15 @@
-.product-categories-contain {
+.filtered-results-contain {
 
   .product-categories {
-    margin-bottom: 123px;
+    margin-bottom: 44px;
+  }
+
+  .text-center {
+    // margin-top: 19px;
+
+    .btn {
+      background-color: #323232;
+    }
   }
 
   .category-filter-box {
@@ -79,17 +87,86 @@
       }
   }
 
-  .text-center {
-    margin-top: 19px;
+  .product-filter-box {
+    height: auto !important;
+    margin-bottom: 40px;
 
-    .btn {
-      background-color: #323232;
+    .product-filter-image-contain {
+      height: 262px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: solid 1px #dddddd;
+
+      img {
+        max-width: 80%;
+        height: auto;
+      }
+    }
+
+    .coming-soon {
+      background-color: rgba(245, 245, 245, 0.51);
+
+        img {
+          margin-bottom: 18px;
+        }
+
+        h2 {
+          font-size: 20px;
+          font-family: 'ProximaBold', serif;
+          color: #323232;
+          margin: 0;
+
+          &:nth-of-type(2) {
+            color: #666666;
+            font-family: 'ProximaRegular', serif;
+            font-weight: normal;
+          }
+        }
+      }
+
+    .product-filter-text-contain {
+      margin-top: 12px;
+
+      h3 {
+        font-size: 16px;
+        font-family: 'ProximaBold', serif;
+        line-height: 1.5;
+        color: #989494;
+        margin: 0;
+        margin-bottom: 11px;
+      }
+
+      p {
+        color: #cf0974;
+        font-family: 'ProximaBold', serif;
+        margin-bottom: 15px !important;
+      }
+
+      .product-filter-product-details {
+        p {
+          font-size: 14px;
+          font-family: 'ProximaRegular', serif;
+          line-height: 1.43;
+          text-align: left;
+          color: #666666;
+          margin-bottom: 7px !important;
+
+          span.product-details-value {
+            font-family: 'ProximaBold', serif;
+          }
+        }
+      }
     }
   }
+
 }
 
 
 .product-category-contain {
+  margin-bottom: 123px;
+
   .category-header  {
 
     h1 {
@@ -273,77 +350,6 @@
    }
  }
 }
-
-// @media screen and (max-width: 768px) {
-//   .page-filter-sorting {
-//     float: left;
-//
-//     .page-filter-fields {
-//       float: right;
-//
-//       .select-filter-sort-by {
-//         float: left;
-//         margin-bottom: 0px;
-//
-//         @media screen and (max-width: 500px) {
-//           .select2-container {
-//             width: 150px !important;
-//           }
-//         }
-//
-//         // Responsive decision needed for mobile devices //////////////
-//
-//         @media screen and (max-width: 400px) {
-//           .select2-container {
-//             width: 100px !important;
-//           }
-//         }
-//
-//         .select2-container--default .select2-selection--single {
-//           height: 42px;
-//         }
-//
-//         .select2-container--default .select2-selection--single .select2-selection__arrow {
-//           top: 3px;
-//         }
-//       }
-//
-//       .btn-filter {
-//         float: right;
-//         margin-top: 0px;
-//         margin-left: 10px;
-//       }
-//     }
-//   }
-// }
-//
-// @media screen and (max-width: 767px) {
-//   .select-filter-sort-by {
-//     margin-bottom: 0 !important;
-//     float: left !important;
-//
-//     .select2-container--default .select2-selection--single {
-//       height: 42px;
-//     }
-//   }
-//
-//   .btn-filter {
-//     width: 65%;
-//     float: right;
-//     margin: 0;
-//   }
-// }
-//
-// @media screen and (max-width: 650px) {
-//
-//   .btn-filter {
-//     width: 50%;
-//   }
-// }
-//
-// @media screen and (max-width: 525px) {
-//
-// }
 
 @media screen and (max-width: 767px) {
 

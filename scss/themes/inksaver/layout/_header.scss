@@ -23,20 +23,14 @@
       margin-right: 0;
       padding-right: 16px;
       padding-left: 18px;
-
+      text-transform: uppercase;
       color: #FFFFFF;
+
       &:hover {
-
+        background-color: #FFFFFF;
+        color: #575757;
+        transition: 0.25s;
       }
-      &:after {
-
-      }
-    }
-
-    a:hover {
-      background-color: #FFFFFF;
-      color: #575757;
-      transition: 0.25s;
     }
   }
 }
@@ -45,26 +39,41 @@
 
 .header-a .top-bar .account-dropdown {
 
-    font-size: 14px;
-
     a {
       color: #FFFFFF;
       height: 48px;
       box-sizing: border-box;
       font-size: 14px;
       font-family: 'ProximaBold', serif;
+      padding-left: 29px;
+      padding-right: 29px;
+      text-transform: uppercase;
     }
 
     .account-lnk-sign-in {
-      padding-left: 30px;
-      padding-right: 29px;
       color: #FFFFFF;
+      padding: 0;
+      transition: 0.1s;
+
+      &:hover {
+        background-color: #fff;
+        transition: 0.1s;
+
+        a {
+          color: #575757 !important;
+        }
+      }
     }
 
     .account-lnk-register {
-      padding-left: 30px;
-      padding-right: 29px;
       background-color: #CF0974;
+      padding: 0;
+      transition: 0.1s;
+
+      &:hover {
+        background-color: #9e0759;
+        transition: 0.1s;
+      }
     }
 }
 
