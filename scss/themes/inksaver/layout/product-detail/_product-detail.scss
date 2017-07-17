@@ -2,14 +2,6 @@
   margin-top: 48px;
   margin-bottom: 49px;
 
-  // .breadcrumb li:last-child {
-  //
-  //   @media screen and (max-width: 767px){
-  //     width: auto !important;
-  //     max-width: none !important;
-  //   }
-  // }
-
   ol li {
     font-size: 12px;
     font-family: 'ProximaBold', serif;
@@ -104,12 +96,13 @@
       float: left;
 
       &:hover {
-        border: 3px solid black;
-        background-color:red;
-
-        &:before {
-          display: block !important;
-        }
+        
+        // border: 3px solid black;
+        // background-color:red;
+        //
+        // &:before {
+        //   display: block !important;
+        // }
       }
     }
 
@@ -264,8 +257,6 @@
 
     li {
       a {
-        padding-top: 18px;
-        padding-bottom: 14px;
         padding-left: 30px;
         padding-right: 30px;
         font-size: 14px;

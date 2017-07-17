@@ -20,6 +20,7 @@
           }
         ]
     });
+
     $('.thumbnail-slider-nav-inner').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
@@ -39,7 +40,7 @@
           }
         ]
     });
-    
+
 
     // featured/related slider
     $('.column-slider-inner').slick({
@@ -179,7 +180,7 @@
     });
 
     $('.lnk-review-request').on('click', function () {
-       
+
 
         if ($('.nav-tabs li').hasClass('active')) {
             $('.nav-tabs li').removeClass('active');
@@ -192,4 +193,3 @@
 
 
 });
-

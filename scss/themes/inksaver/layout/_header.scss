@@ -1,7 +1,9 @@
 .header-a .account-lnk-sign-in:after {
   width: 0;
 }
- /* Styling for top bar */
+
+/* header top-bar section */
+//=============================================================
 
 .header-a .top-bar {
 
@@ -77,7 +79,9 @@
     }
 }
 
-/* Styling for mainbar */
+/* header main-bar section */
+//=============================================================
+
 .header-a  .main-bar {
 
     height: auto;
@@ -202,11 +206,7 @@
   @media screen and (max-width: 767px){
     margin-left: 0 !important;
     bottom: -50px;
-
   }
-  // @media screen and (max-width: 430px) {
-  //   right: 15px;
-  // }
 }
 
 @media screen and (max-width: 600px) {
