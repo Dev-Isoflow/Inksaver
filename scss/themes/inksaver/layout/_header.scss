@@ -28,6 +28,10 @@
       text-transform: uppercase;
       color: #FFFFFF;
 
+      .fa-truck {
+        transform: scaleX(-1);
+      }
+
       &:hover {
         background-color: #FFFFFF;
         color: #575757;

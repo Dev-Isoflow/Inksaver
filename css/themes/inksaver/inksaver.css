@@ -19980,6 +19980,10 @@ pre {
       padding-left: 18px;
       text-transform: uppercase;
       color: #FFFFFF; }
+      .header-a .top-bar .utils a .fa-truck {
+        -webkit-transform: scaleX(-1);
+        -ms-transform: scaleX(-1);
+        transform: scaleX(-1); }
       .header-a .top-bar .utils a:hover {
         background-color: #FFFFFF;
         color: #575757;
@@ -20649,6 +20653,11 @@ li.dropdown, li.dropdown.open {
   .footer-bottom .container p, .footer-bottom .banner-boxed p {
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.42; }
+  @media screen and (max-width: 400px) {
+    .footer-bottom .container .col-xs-5, .footer-bottom .banner-boxed .col-xs-5, .footer-bottom .container .col-xs-7, .footer-bottom .banner-boxed .col-xs-7 {
+      width: 100%; }
+      .footer-bottom .container .col-xs-5 p, .footer-bottom .banner-boxed .col-xs-5 p, .footer-bottom .container .col-xs-7 p, .footer-bottom .banner-boxed .col-xs-7 p {
+        margin-bottom: 0; } }
   .footer-bottom .footer-bottom-policies {
     text-align: right; }
     .footer-bottom .footer-bottom-policies li {
@@ -20855,7 +20864,7 @@ ul.footer-list li {
 
 #cartridge-widget-submit {
   width: 17.58%;
-  min-width: 182px;
+  min-width: 176px;
   height: 67px; }
   #cartridge-widget-submit .button {
     background-color: #bbb;
@@ -21400,6 +21409,10 @@ ul.footer-list li {
       font-size: 14px;
       text-transform: uppercase;
       height: 48px; }
+      .input-group .input-group-addon .btn:hover {
+        background-color: #0FA0DA;
+        color: #fff;
+        border: 1px solid #ffffff; }
   .input-group input {
     background-color: rgba(255, 255, 255, 0.21);
     border: 0;
@@ -21498,7 +21511,7 @@ ul.footer-list li {
     .newsletter .container .newsletter-content-container .newsletter-text .booking-type-title,
     .newsletter .banner-boxed .newsletter-content-container .newsletter-text .booking-type .booking-type-title, .booking-type
     .newsletter .banner-boxed .newsletter-content-container .newsletter-text .booking-type-title {
-      margin-bottom: 10px !important; }
+      margin: 10px; }
     .newsletter .banner-boxed .newsletter-content-container .newsletter-contain,
     .newsletter .container .newsletter-content-container .newsletter-contain,
     .newsletter .banner-boxed .newsletter-content-container .newsletter-contain {
@@ -21602,7 +21615,8 @@ ul.footer-list li {
       overflow: visible;
       width: auto !important;
       max-width: none !important;
-      font-family: 'ProximaBold', serif; }
+      font-family: 'ProximaBold', serif;
+      white-space: normal; }
 
 @media screen and (max-width: 959px) {
   .product-detail-information {
@@ -21656,7 +21670,6 @@ ul.footer-list li {
   .product-detail-information .product-promotion p {
     font-size: 14px;
     font-family: 'ProximaBold', serif;
-    text-align: center;
     color: #323232; }
 
 .product-detail-form-list {
@@ -21829,6 +21842,10 @@ ul.footer-list li {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center; }
+    @media screen and (max-width: 320px) {
+      #product-details-target ul.nav-tabs li a {
+        padding-left: 15px;
+        padding-right: 15px; } }
 
 #product-details-target .nav-tabs > li.active > a,
 #product-details-target .nav-tabs > li.active > a:hover,
@@ -22595,13 +22612,25 @@ ul.footer-list li {
               background-color: #575757; }
               .blog-widget .blog-widget-pinboard .blog-widget-article-preview.blog-text-preview .article-tag-buttons a .article-tag:hover p {
                 color: #fff; }
+  .blog-widget .container > a, .blog-widget .banner-boxed > a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
   .blog-widget a .visit-blog {
     text-align: center;
     text-transform: uppercase;
     padding: 16px 33px 17px 33px;
     background-color: #323232;
-    width: 130px;
-    margin: 0 auto; }
+    border: 1px solid #575757; }
     .blog-widget a .visit-blog p {
       font-size: 12px;
       font-weight: 600;
@@ -22609,7 +22638,6 @@ ul.footer-list li {
       color: #ffffff;
       margin: 0; }
     .blog-widget a .visit-blog:hover {
-      background-color: #f5f5f5;
-      border: 1px solid #575757; }
+      background-color: #f5f5f5; }
       .blog-widget a .visit-blog:hover p {
         color: #575757; }
