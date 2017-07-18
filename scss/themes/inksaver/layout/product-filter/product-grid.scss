@@ -72,6 +72,12 @@
               color: #323232;
               margin: 0;
             }
+
+            @media screen and (max-width: 435px) {
+              width: 100%;
+              padding-left: 0;
+              padding-right: 0;
+            }
         }
       }
 
@@ -85,21 +91,28 @@
   }
 
   .product-filter-box {
-    height: auto !important;
     margin-bottom: 40px;
 
     .product-filter-image-contain {
       border: solid 1px #dddddd;
       padding: 20px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       &.coming-soon {
+        display: block;
         padding: 55px 20px;
       }
 
       img {
-        height: auto;
+        max-width: 100%;
         margin: 0 auto;
         display: block;
+      }
+
+      &:hover {
+        border: solid 1px #323232;
       }
     }
 
@@ -107,6 +120,7 @@
       background-color: rgba(245, 245, 245, 0.51);
 
         img {
+          max-width: 100%;
           margin-bottom: 18px;
         }
 
@@ -230,6 +244,7 @@
 .product-filter-contain {
 
   .product-filter {
+
     .filter-contain {
       margin-bottom: 0px;
 
