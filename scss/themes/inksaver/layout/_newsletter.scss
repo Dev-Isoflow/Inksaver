@@ -1,11 +1,14 @@
+/* newsletter section */
+//=============================================================
+
 .newsletter {
   height: auto;
-  padding-top: 64px;
+  padding-top: 55px;
   padding-bottom: 55px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0fa0da;
+  background-color: $primary-color;
 
   .container {
     display: flex;
@@ -21,15 +24,17 @@
   width: 100%;
 
   .newsletter-text h3 {
-    color: #ffffff;
-    margin-bottom: 0;
+    color: $newsletter-title-color;
+    margin: 0;
     font-size: 24px;
+
   }
 
   .newsletter-text p {
     color: #ffffff;
     line-height: 24px;
     font-size: 16px;
+    margin: 0;
   }
 
   .newsletter-image {
@@ -49,7 +54,6 @@
 
 .input-group {
   width: 100%;
-  height: 48px;
 
   .input-group-addon {
     height: 100%;
@@ -60,11 +64,17 @@
       display: block;
       width: 100%;
       height: 100%;
-      color: #0fa0da;
+      color: $primary-color;
       background-color: #ffffff;
       font-size: 14px;
       text-transform: uppercase;
       height: 48px;
+
+      &:hover {
+        background-color: $primary-color;
+        color: $btn-text;
+        border: 1px solid #ffffff;
+      }
     }
   }
 
@@ -76,9 +86,16 @@
     color: #ffffff;
   }
 
-  input.form-control::-webkit-input-placeholder {
-    color: #ffffff !important;
-    font-size: 14px;
+  .form-control {
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 10px;
+    }
+
+    &::-webkit-input-placeholder {
+      color: #ffffff !important;
+      font-size: 14px;
+    }
   }
 }
 
@@ -88,7 +105,8 @@
   align-items: center;
   float: right;
   width: 100%;
-  padding-left: 22.361%;
+  padding-left: 15%;
+
   @media screen and (max-width: 1206px) {
     padding-left: 15% !important;
   }
@@ -98,9 +116,6 @@
   @media screen and (max-width: 992px) {
     padding-left: 0 !important;
     margin-top: 30px;
-  }
-  @media screen and (max-width: 768px) {
-    margin-bottom: 48px;
   }
 }
 
@@ -119,10 +134,6 @@
       width: 80% !important;
     }
 
-    .input-group input.form-control,
-    .input-group input.form-control::-webkit-input-placeholder {
-      text-align: center !important;
-    }
   }
   @media screen and (max-width: 876px) {
     width: 80% !important;
@@ -135,7 +146,7 @@
   }
   @media screen and (max-width: 520px) {
     .newsletter-text h3 {
-      margin-bottom: 10px !important;
+      margin: 10px;
     }
 
     .newsletter-contain {

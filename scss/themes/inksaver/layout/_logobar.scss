@@ -1,9 +1,12 @@
+/* logobar */
+//=============================================================
+
 .logobar {
   margin-top: 39px;
 
   .content-container {
-    padding-right: 42px !important;
-    padding-bottom: 0 !important;
+    padding-right: 42px;
+    padding-bottom: 0;
 
     .logobar-title h2 {
       margin-top: 0;
@@ -21,12 +24,18 @@
   .logo-contain {
     height: 94px;
     margin-bottom: 0;
-    border: solid 1px #dddddd;
+    border: solid 1px $border-color;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
     position: relative;
+    padding: 5px;
+
+    img {
+      width: auto;
+      max-width: 100%;
+    }
 
     &:hover {
       transition: 0.2s;
@@ -44,10 +53,6 @@
       img {
         z-index: 0;
       }
-    }
-
-    img {
-      width: auto;
     }
   }
 }

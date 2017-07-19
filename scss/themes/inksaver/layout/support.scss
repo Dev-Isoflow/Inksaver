@@ -1,3 +1,6 @@
+/* support section */
+//=============================================================
+
 .contact-us,
 .support {
   height: auto;
@@ -8,8 +11,8 @@
 
   img {
     position: absolute;
-    left: 0 !important;
-    right: 0 !important;
+    left: 0;
+    right: 0;
     margin: 0 auto;
     top: -50px;
   }
@@ -29,7 +32,7 @@
 
       h1 {
         font-size: 30px;
-        color: #575757;
+        color: $title-color;
         font-family: 'ProximaBold', serif;
         margin-top: 0;
         margin-bottom: 7px;
@@ -38,13 +41,13 @@
       p {
         font-size: 18px;
         line-height: 1.33;
-        color: #666666;
+        color: $gray-text-medium;
         margin-bottom: 36px;
       }
 
       a div {
         padding: 16px 25px 17px;
-        background-color: #cf0974;
+        background-color: $secondary-color;
 
         &:hover {
           background-color: #9e0759;
@@ -55,7 +58,7 @@
           font-family: 'ProximaBold', serif;
           color: #ffffff;
           text-transform: uppercase;
-          margin: 0 !important;
+          margin: 0;
         }
       }
     }

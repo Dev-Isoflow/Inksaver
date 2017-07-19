@@ -1,7 +1,13 @@
+/* advertisement section */
+//=============================================================
+
 .advertisement-section-title {
   h1 {
-    margin-bottom: 36px;
     text-align: center;
+    font-family: 'ProximaBold', serif;
+    margin-top: 0;
+    margin-bottom: 36px;
+
   }
 }
 
@@ -39,6 +45,7 @@
 .advertisement-item {
   padding-left: 40px;
   padding-right: 40px;
+  margin-bottom: 50px;
 
   p {
     font-size: 16px;
@@ -49,16 +56,21 @@
     margin-bottom: 11px;
   }
   @media screen and (max-width: 1200px) {
-    width: 60% !important;
+    padding-left: 5px;
+    padding-right: 5px;
     margin: 0 auto;
+    margin-bottom: 41px;
   }
+
+  @media screen and (max-width: 991px) {
+    width: 50%;
+  }
+
   @media screen and (max-width: 768px) {
-    width: 70% !important;
-    margin: 0 auto;
+    width: 70%;
   }
   @media screen and (max-width: 449px) {
-    width: 80% !important;
-    margin: 0 auto;
+    width: 80%;
     padding-left: 25px !important;
     padding-right: 25px !important;
 

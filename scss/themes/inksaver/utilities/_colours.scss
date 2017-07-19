@@ -6,10 +6,16 @@ $primary-color:               #0FA0DA !default;
 $secondary-color:             #CF0974 !default;
 $border-color:                #DDDDDD !default;
 
+$gray-dark:                   #323232 !default;
+
 // text colors
 // =============
 $text-color:                  #989494 !default;
 $title-color:                 #575757 !default;
+$link-hover-text-color:       #575757 !default;
+$gray-text-light:             #DDDDDD !default;
+$gray-text-medium:            #666666 !default;
+$gray-text-dark:              $gray-dark !default;
 
 // badge colors
 // =============

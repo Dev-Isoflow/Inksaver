@@ -1,3 +1,6 @@
+/* horizontal product carousel */
+//=============================================================
+
 .product-badge {
   border-radius: 100%;
   top: 14px;
@@ -18,7 +21,7 @@
 
 .product-box-detail {
   h3 {
-    color: #989494;
+    color: $text-color;
     font-size: 16px;
     white-space: normal;
   }
@@ -34,23 +37,9 @@
   padding-bottom: 5px;
 
   &:hover {
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
-    transform: scaleY(1.07);
-    transition: 0.2s;
 
     .product-box-img {
-      border: 0;
-    }
-
-    .product-badge {
-      transform: scaleY(0.934579);
-    }
-
-    .product-box-detail {
-      transform: scaleY(0.934579);
-      padding-left: 15px;
-      padding-right: 15px;
-      transition: 0s !important;
+      border: 1px solid $gray-dark;
     }
   }
 }
@@ -94,7 +83,7 @@
   }
 
   li.slick-active button {
-    background: #989494;
+    background: $text-color;
   }
 }
 
@@ -110,7 +99,7 @@
   .slide-prev {
     width: 42px;
     height: 42px;
-    border: solid 1px #dddddd;
+    border: solid 1px $border-color;
     background-color: #ffffff;
     position: static !important;
     display: flex;
@@ -120,5 +109,5 @@
 }
 
 #recommended {
-  padding-top: 74.6px;
+  padding-top: 60px !important;
 }

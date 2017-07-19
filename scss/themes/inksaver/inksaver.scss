@@ -13,26 +13,33 @@
 // ==========================================================================
 
 
-// @import 'layout/cartridge_widget';
-// @import 'layout/horizontal_product_carousel';
-// @import 'layout/home/advertisement';
-// @import 'layout/testimonial_carousel';
-// @import 'layout/home/newsletter';
-// @import 'layout/logobar';
-
+// Used across all pages
 @import 'layout/header';
 @import 'layout/navbar';
-@import 'layout/_navbar_menus';
-@import 'layout/carousel';
+@import 'layout/navbar_menus';
 @import 'layout/footer';
 
-@import 'layout/sections';
+// Specific to index page
+@import 'layout/carousel';
+@import 'layout/cartridge_widget';
+@import 'layout/logobar';
+@import 'layout/horizontal_product_carousel';
+@import 'layout/advertisement';
+@import 'layout/testimonial_carousel';
+@import 'layout/newsletter';
 
-@import 'layout/product-filter/product-grid';
-// @import 'layout/product-filter/support';
+// Specific to product-detail page
+@import 'layout/product-detail';
 
-@import 'layout/blog-article/blog-article';
+// Specific to product-filter page
+@import 'layout/product-filter-widget';
+@import 'layout/filter-grid';
+@import 'layout/category-filter-grid-item';
+@import 'layout/product-filter-grid-item';
+@import 'layout/support';
 
-// @import 'layout/product-detail/product-detail';
+// Specific to blog-article page
+@import 'layout/blog-article';
 
+//Specific to help-centre page
 @import 'layout/help-centre.scss';

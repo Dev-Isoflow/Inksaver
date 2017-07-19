@@ -10,14 +10,14 @@
     margin-bottom: 6px;
     font-size: 30px;
     font-family: 'ProximaBold', serif;
-    color: #575757;
+    color: $title-color;
   }
 
   .blog-article-date {
     font-size: 18px;
     font-family: 'ProximaRegularItalic', serif;
     line-height: 1.33;
-    color: #989494;
+    color: $text-color;
   }
 }
 
@@ -29,7 +29,7 @@
 
   p {
     font-size: 16px;
-    color: #666666;
+    color: $gray-text-medium;
     line-height: 1.5;
     margin-top: 30px;
     margin-bottom: 0;
@@ -41,7 +41,7 @@
 
   .blog-article-end-marker {
     margin-top: 31px;
-    background-color: #cf0974;
+    background-color: $secondary-color;
     width: 25px;
     height: 4px;
     border-radius: 100px;
@@ -49,7 +49,7 @@
 }
 
 .article-social-share {
-  border: solid 1px #dddddd;
+  border: solid 1px $border-color;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,7 +57,7 @@
   margin-bottom: 37px;
 
   .article-social-share-title {
-    background-color: #323232;
+    background-color: $gray-dark;
     width: 100%;
     text-align: center;
     padding-top: 16px;
@@ -82,7 +82,7 @@
       padding-right: 14.4px;
 
       a i {
-        color: #989494 !important;
+        color: $text-color !important;
         font-size: 25px;
         bottom: 0 !important;
 
@@ -121,7 +121,7 @@
     h3 {
       font-size: 14px;
       font-family: 'ProximaBold', serif;
-      color: #323232;
+      color: $gray-text-dark;
     }
   }
 
@@ -131,10 +131,10 @@
     a {
       border-radius: 100px;
       background-color: #f5f5f5;
-      border: solid 1px #dddddd;
+      border: solid 1px $border-color;
       font-size: 12px;
       font-weight: 600;
-      color: #575757;
+      color: $title-color;
       padding-top: 7px;
       padding-bottom: 8px;
       padding-right: 4px;
@@ -146,13 +146,13 @@
 
       &:hover {
         background-color: darken(#f5f5f5, 10%);
-        color: #575757;
+        color: $link-hover-text-color;
       }
 
       .tag-num {
         font-size: 11px;
         color: white;
-        background-color: #cf0974;
+        background-color: $secondary-color;
         margin-left: 9px;
         border-top-left-radius: 100%;
         border-top-right-radius: 100%;
@@ -178,7 +178,7 @@
     h3 {
       font-size: 14px;
       font-family: 'ProximaBold', serif;
-      color: #323232;
+      color: $gray-text-dark;
       margin: 0;
     }
   }
@@ -193,11 +193,11 @@
       font-weight: normal;
       font-size: 16px;
       line-height: 2.38;
-      color: #666666;
+      color: $gray-text-medium;
       padding: 1px 0;
 
       &:hover {
-        color: #0fa0da;
+        color: $primary-color;
       }
 
       .archive-num {

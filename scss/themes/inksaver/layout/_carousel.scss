@@ -4,31 +4,37 @@
     padding-top: 0px;
   }
 
-  .slick-buttons-contain {
-    button:nth-of-type(2) i {
-      float: right;
-    }
-  }
-
-  .material-icons {
-    background-color: #cf0974;
-    font-size: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 37px;
-    display: flex;
+  .slick-arrow {
+    height: 53px;
+    width: 39px;
+    background-color: $secondary-color;
+    // border: 1px solid rgba(255,255,255,0.7);
+    margin-top: -26px;
+    display: flex !important;
     justify-content: center;
-    font-weight: 100;
-    color: $btn-text;
-    margin: 0 auto;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    align-items: center;
 
     @media screen and (max-width: 991px) {
       background-color: rgba(0,0,0,0);
-      color: #666666;
-      font-size: 50px;
-      margin: 0;
+      padding: 0;
+      margin-top: 0;
+      width: 50%;
+      justify-content: flex-start;
+      padding-left: 30px;
+      padding-right: 30px;
+
+      svg path {
+        stroke: $gray-text-medium;
+      }
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+
+    .slick-buttons-contain {
+      button:nth-of-type(2) {
+        justify-content: flex-end;
+      }
     }
   }
 }

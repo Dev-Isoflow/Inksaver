@@ -7,7 +7,7 @@
 
 .header-a .top-bar {
 
-    background-color: #323232;
+    background-color: $gray-dark;
     box-sizing: border-box;
     height: 48px;
 
@@ -34,7 +34,7 @@
 
       &:hover {
         background-color: #FFFFFF;
-        color: #575757;
+        color: $link-hover-text-color;
         transition: 0.25s;
       }
     }
@@ -66,13 +66,13 @@
         transition: 0.1s;
 
         a {
-          color: #575757 !important;
+          color: $link-hover-text-color !important;
         }
       }
     }
 
     .account-lnk-register {
-      background-color: #CF0974;
+      background-color: $secondary-color;
       padding: 0;
       transition: 0.1s;
 
@@ -349,7 +349,7 @@
 .header-a .mini-cart > a {
   padding: 15px 0 14px 0;
   display: inline-block;
-  color: #989494;
+  color: $text-color;
 }
 
 .header-a .mini-cart > a .fa.fa-shopping-cart {

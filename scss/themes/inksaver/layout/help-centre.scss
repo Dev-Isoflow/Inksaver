@@ -7,7 +7,7 @@
     h1 {
       font-size: 30px;
       font-family: 'ProximaBold', serif;
-      color: #575757;
+      color: $title-color;
       margin: 0;
       margin-bottom: 4px;
     }
@@ -31,7 +31,7 @@
 
     h2 {
       font-size: 24px;
-      color: #323232;
+      color: $gray-text-dark;
       font-family: 'ProximaRegular', serif;
       font-weight: normal;
       margin-bottom: 0;
@@ -52,7 +52,7 @@
       font-size: 14px;
       font-family: 'ProximaBold', serif;
       line-height: 1;
-      color: #323232;
+      color: $gray-text-dark;
       display: block;
       padding-top: 18px;
       padding-bottom: 18.5px;
@@ -92,7 +92,7 @@
       font-size: 14px;
       line-height: 1.43;
       text-align: left;
-      color: #666666;
+      color: $gray-text-medium;
       display: none;
     }
   }
@@ -145,7 +145,7 @@
       margin-bottom: 7px;
       font-size: 30px;
       font-family: 'ProximaBold', serif;
-      color: #575757;
+      color: $title-color;
     }
 
     p {
@@ -153,7 +153,7 @@
       font-size: 18px;
       line-height: 1.33;
       text-align: center;
-      color: #666666;
+      color: $gray-text-medium;
     }
   }
 
@@ -161,7 +161,7 @@
 
     .blog-widget-article-preview {
       margin-bottom: 67px;
-      border: solid 1px #dddddd;
+      border: solid 1px $border-color;
       position: relative;
 
       @media screen and (max-width: 1200px) {
@@ -190,7 +190,7 @@
         	right: 0;
         	bottom: 0;
         	left: 0;
-          background-image: linear-gradient(to bottom, rgba(238, 238, 238, 0), #323232);
+          background-image: linear-gradient(to bottom, rgba(238, 238, 238, 0), $gray-dark);
         }
       }
 
@@ -208,7 +208,7 @@
           }
           h2 {
             font-size: 20px;
-            color: #575757;
+            color: $title-color;
             margin: 0;
             display: flex;
             align-items: center;
@@ -218,10 +218,9 @@
 
         .blog-text-preview-content {
           margin-top: 12px;
-          // margin-bottom: 15px;
           font-size: 16px;
           line-height: 1.5;
-          color: #666666;
+          color: $gray-text-medium;
         }
 
         .article-tag-buttons {
@@ -235,7 +234,7 @@
             .article-tag {
               border-radius: 100px;
               background-color: #ffffff;
-              border: solid 1px #dddddd;
+              border: solid 1px $border-color;
               display: flex;
               justify-content: center;
               align-items: center;
@@ -247,13 +246,13 @@
               p {
                 font-size: 11px;
                 font-family: 'ProximaBold', serif;
-                color: #575757;
+                color: $title-color;
                 margin: 0;
                 text-transform: uppercase;
               }
 
               &:hover {
-                background-color: #575757;
+                background-color: $link-hover-text-color;
 
                 p {
                   color: $btn-text;
@@ -276,8 +275,8 @@
     text-align: center;
     text-transform: uppercase;
     padding: 16px 33px 17px 33px;
-    background-color: #323232;
-    border: 1px solid #575757;
+    background-color: $gray-dark;
+    border: 1px solid $gray-dark;
 
     p {
       font-size: 12px;
@@ -291,7 +290,7 @@
       background-color: #f5f5f5;
 
       p {
-        color: #575757;
+        color: $link-hover-text-color;
       }
     }
   }
