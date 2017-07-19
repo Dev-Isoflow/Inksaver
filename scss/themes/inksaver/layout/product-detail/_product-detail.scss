@@ -96,7 +96,7 @@
       float: left;
 
       &:hover {
-        
+
         // border: 3px solid black;
         // background-color:red;
         //
@@ -119,9 +119,14 @@
       box-sizing: content-box;
     }
 
-    .product-colour a.active:after, .product-colour a.disabled:after {
+    .product-colour a.active:after {
       content: '';
     }
+
+    .product-colour a.disabled:after {
+      content: '\f00c';
+    }
+
   }
 }
 

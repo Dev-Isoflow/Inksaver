@@ -3,4 +3,32 @@
   .slick-list {
     padding-top: 0px;
   }
+
+  .slick-buttons-contain {
+    button:nth-of-type(2) i {
+      float: right;
+    }
+  }
+
+  .material-icons {
+    background-color: #cf0974;
+    font-size: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 37px;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    color: $btn-text;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    @media screen and (max-width: 991px) {
+      background-color: rgba(0,0,0,0);
+      color: #666666;
+      font-size: 50px;
+      margin: 0;
+    }
+  }
 }

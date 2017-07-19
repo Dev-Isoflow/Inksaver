@@ -2,7 +2,6 @@
 
 .header-a .navbar {
 
-    height: 44px;
     min-height: 44px;
     box-sizing: border-box;
     background-color: #F5F5F5;
@@ -94,7 +93,6 @@
 @media (max-width: 1200px) {
   .header-a .navbar {
     padding-top: 0;
-    padding-bottom: 15px;
     border-bottom: none;
   }
 

@@ -31,7 +31,12 @@
       padding-bottom: 34px;
 
       @media screen and (max-width: 1200px) {
-        padding-right: 42px !important;
+        padding-right: 42px;
+      }
+
+      @media screen and (max-width: 767px) {
+        padding-left: 0;
+        padding-right: 0;
       }
 
       .cartridge-widget-title h2 {
@@ -98,26 +103,21 @@
   }
 
   .dropdown {
-    position: static;
-
-    a.dropdown-toggle {
-      position: static !important;
-    }
 
     &:hover {
       .dropdown-menu {
-        display: none !important;
-
-        &:hover {
-          display: block !important;
-        }
+        display: none;
       }
     }
-  }
 
-  .dropdown.open:hover {
-    .dropdown-menu {
-      display: block !important;
+    &.open, &.open:hover {
+      .dropdown-menu {
+        display: block;
+
+        &:hover {
+          display: block;
+        }
+      }
     }
   }
 
@@ -189,7 +189,7 @@
     h3 {
       font-size: 18px;
       font-family: 'ProximaBold', serif;
-      color: #323232;
+      color: #575757;
       margin-top: 0;
       margin-bottom: 11px;
     }
@@ -247,6 +247,11 @@
 }
 
 .cartridge-hr-divider {
+
+  @media screen and (max-width: 991px) and (min-width: 768px) {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
   hr {
     margin-top: 0;
     margin-bottom: 0;
@@ -322,8 +327,8 @@
   margin-top: 39px;
 
   .content-container {
-    padding-right: 42px !important;
-    padding-bottom: 0 !important;
+    padding-right: 42px;
+    padding-bottom: 0;
 
     .logobar-title h2 {
       margin-top: 0;
@@ -536,7 +541,7 @@
 }
 
 #recommended {
-  padding-top: 74.6px !important;
+  padding-top: 60px !important;
 }
 
 
@@ -547,6 +552,7 @@
   h1 {
     text-align: center;
     font-family: 'ProximaBold', serif;
+    margin-top: 0;
     margin-bottom: 36px;
 
   }
@@ -586,6 +592,7 @@
 .advertisement-item {
   padding-left: 40px;
   padding-right: 40px;
+  margin-bottom: 50px;
 
   p {
     font-size: 16px;
@@ -596,16 +603,21 @@
     margin-bottom: 11px;
   }
   @media screen and (max-width: 1200px) {
-    width: 60% !important;
+    padding-left: 5px;
+    padding-right: 5px;
     margin: 0 auto;
+    margin-bottom: 41px;
   }
+
+  @media screen and (max-width: 991px) {
+    width: 50%;
+  }
+
   @media screen and (max-width: 768px) {
-    width: 70% !important;
-    margin: 0 auto;
+    width: 70%;
   }
   @media screen and (max-width: 449px) {
-    width: 80% !important;
-    margin: 0 auto;
+    width: 80%;
     padding-left: 25px !important;
     padding-right: 25px !important;
 
@@ -621,7 +633,7 @@
 
 
 .testimonial-carousel {
-  padding-top: 68.5px;
+  padding-top: 52px;
   padding-bottom: 52px;
   text-align: center;
 
@@ -691,7 +703,7 @@
 
 .newsletter {
   height: auto;
-  padding-top: 64px;
+  padding-top: 55px;
   padding-bottom: 55px;
   display: flex;
   justify-content: center;
@@ -742,7 +754,6 @@
 
 .input-group {
   width: 100%;
-  height: 48px;
 
   .input-group-addon {
     height: 100%;
@@ -806,9 +817,9 @@
     padding-left: 0 !important;
     margin-top: 30px;
   }
-  @media screen and (max-width: 768px) {
-    margin-bottom: 48px;
-  }
+  // @media screen and (max-width: 768px) {
+  //   margin-bottom: 48px;
+  // }
 }
 
 .newsletter .banner-boxed .newsletter-content-container,
@@ -1028,8 +1039,19 @@
       background: transparent;
     }
 
-    .product-colour a.active:after, .product-colour a.disabled:after {
+    .product-colour a.active:after {
       content: '';
+    }
+
+    .product-colour a.disabled:after {
+      content: '\f00d';
+      text-shadow: none;
+      color: rgba(0,0,0,0.2);
+      font-size: 16px;
+      top: -3px;
+    }
+    .product-colour a.disabled:before {
+     display: none;
     }
   }
 }
@@ -1092,6 +1114,12 @@
       &.fa-heart-o {
         font-size: 16px;
       }
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    a.btn-add-cart {
+      width: 100%;
     }
   }
 
@@ -1186,6 +1214,8 @@
     margin-bottom: 0 !important;
 
     li {
+      width: calc(50% - 0.5px);
+
       a {
         padding-left: 30px;
         padding-right: 30px;
