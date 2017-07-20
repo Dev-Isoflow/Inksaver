@@ -4,17 +4,19 @@
 $contrast-color:              #f1f5f7 !default;
 $primary-color:               #0FA0DA !default;
 $secondary-color:             #CF0974 !default;
-$border-color:                #DDDDDD !default;
 
+$gray-light:                  #DDDDDD !default;
+$gray-medium:                 #666666 !default;
 $gray-dark:                   #323232 !default;
+$border-color:                $gray-light !default;
 
 // text colors
 // =============
 $text-color:                  #989494 !default;
 $title-color:                 #575757 !default;
 $link-hover-text-color:       #575757 !default;
-$gray-text-light:             #DDDDDD !default;
-$gray-text-medium:            #666666 !default;
+$gray-text-light:             $gray-light !default;
+$gray-text-medium:            $gray-medium !default;
 $gray-text-dark:              $gray-dark !default;
 
 // badge colors

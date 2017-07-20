@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 
     &.coming-soon {
       display: block;
@@ -20,6 +21,32 @@
       max-width: 100%;
       margin: 0 auto;
       display: block;
+    }
+
+    .product-badge {
+      border-radius: 0;
+      padding: 11px 9px;
+      width: auto;
+      height: auto;
+      font-size: 11px;
+      font-family: 'ProximaBold', serif;
+      text-transform: uppercase;
+      line-height: 1.09;
+      text-align: center;
+      top: 0;
+      left: 0;
+
+      &.feature-badge {
+        background: $primary-color;
+        color: #fff;
+      }
+
+      &.orig-badge {
+        background-color: $gray-light;
+        color: $gray-text-medium;
+        padding-left: 16px;
+        padding-right: 16px;
+      }
     }
 
     &:hover {
