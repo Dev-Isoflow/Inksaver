@@ -102,9 +102,10 @@
     border: solid 1px $border-color;
     background-color: #ffffff;
     position: static !important;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end !important;
+    i {
+      position: relative;
+      top: -1px;
+    }
   }
 }
 
