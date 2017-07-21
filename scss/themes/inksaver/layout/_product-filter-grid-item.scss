@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    transition: 0.2s;
 
     &.coming-soon {
       display: block;
@@ -51,6 +52,7 @@
 
     &:hover {
       border: solid 1px $gray-dark;
+      transition: 0.3s;
     }
   }
 

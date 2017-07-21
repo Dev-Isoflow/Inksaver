@@ -27,6 +27,7 @@
       padding-left: 18px;
       text-transform: uppercase;
       color: #FFFFFF;
+      transition: 0.2s;
 
       .fa-truck {
         transform: scaleX(-1);
@@ -35,7 +36,7 @@
       &:hover {
         background-color: #FFFFFF;
         color: $link-hover-text-color;
-        transition: 0.25s;
+        transition: 0.3s;
       }
     }
   }
@@ -59,11 +60,11 @@
     .account-lnk-sign-in {
       color: #FFFFFF;
       padding: 0;
-      transition: 0.1s;
+      transition: 0.2s;
 
       &:hover {
         background-color: #fff;
-        transition: 0.1s;
+        transition: 0.3s;
 
         a {
           color: $link-hover-text-color !important;
@@ -74,11 +75,11 @@
     .account-lnk-register {
       background-color: $secondary-color;
       padding: 0;
-      transition: 0.1s;
+      transition: 0.2s;
 
       &:hover {
         background-color: #9e0759;
-        transition: 0.1s;
+        transition: 0.3s;
       }
     }
 }
@@ -117,6 +118,10 @@
         width: 20%;
         display: inline-block;
         padding-top: 5px;
+
+        img {
+          width: 245px;
+        }
       }
     }
 }

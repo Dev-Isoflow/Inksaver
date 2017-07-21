@@ -69,9 +69,11 @@ ul.footer-list li {
   background-color: rgba(0,0,0,0.1);
   color: #ffffff;
   font-size: 20px;
+  transition: 0.2s;
 
   &:hover {
     background-color: rgba(0,0,0,0.4);
+    transition: 0.3s;
   }
 }
 
