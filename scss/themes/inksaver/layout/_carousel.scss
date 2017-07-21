@@ -9,34 +9,25 @@
     width: 39px;
     background-color: $secondary-color;
     margin-top: -26px;
-    // display: flex !important;
-    // justify-content: center;
-    // align-items: center;
+    padding: 0 10px;
 
-    &.slick-prev svg {
-      position: absolute;
-      left: 11px;
-      top: 14.5px;
-    }
-
-    &.slick-next svg {
-      position: absolute;
-      left: 12px;
-      top: 14.5px;
-    }
-
+     svg {
+      position: relative;
+      top: -15px;
+      }
 
     @media screen and (max-width: 991px) {
       background-color: rgba(0,0,0,0);
-      padding: 0;
+      padding: 0 20px;
       margin-top: 0;
       width: 50%;
-      justify-content: flex-start;
-      padding-left: 30px;
-      padding-right: 30px;
 
+       svg {
+         top: -4px;
+       }
       svg path {
         stroke: $gray-text-medium;
+
       }
     }
   }
