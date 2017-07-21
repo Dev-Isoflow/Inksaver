@@ -10,11 +10,10 @@
     background-color: $secondary-color;
     margin-top: -26px;
     padding: 0 10px;
-     
+
      svg {
       position: relative;
       top: -15px;
-
       }
 
     @media screen and (max-width: 991px) {
@@ -22,7 +21,7 @@
       padding: 0 20px;
       margin-top: 0;
       width: 50%;
-     
+
        svg {
          top: -4px;
        }

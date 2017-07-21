@@ -91,7 +91,7 @@
   text-align: right;
   position: static !important;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end !important;
   align-items: center;
   text-align: right;
 
@@ -102,10 +102,12 @@
     border: solid 1px $border-color;
     background-color: #ffffff;
     position: static !important;
+
     i {
       position: relative;
       top: -1px;
     }
+
   }
 }
 

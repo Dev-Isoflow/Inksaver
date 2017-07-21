@@ -10,6 +10,10 @@
 
     .btn {
       background-color: $gray-dark;
+
+      &:hover {
+        background-color: #000000;
+      }
     }
   }
 }
