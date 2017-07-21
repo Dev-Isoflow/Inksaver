@@ -28825,6 +28825,14 @@ ul.footer-list li a {
   padding-top: 7px;
   padding-bottom: 8px;
   padding-right: 4px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 14px;
+  margin-right: 5px;
   transition: all .3s;
 }
 
