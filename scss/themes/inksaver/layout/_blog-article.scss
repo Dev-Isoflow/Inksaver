@@ -85,6 +85,11 @@
         color: $text-color !important;
         font-size: 25px;
         bottom: 0 !important;
+        transition: 0.2s;
+
+        &:hover {
+          transition: 0.3s;
+        }
 
         &.fa-facebook:hover {
           color: #3b5998 !important;

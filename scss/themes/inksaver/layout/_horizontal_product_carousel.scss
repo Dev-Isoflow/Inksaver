@@ -91,7 +91,7 @@
   text-align: right;
   position: static !important;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end !important;
   align-items: center;
   text-align: right;
 
@@ -104,7 +104,7 @@
     position: static !important;
     display: flex;
     justify-content: center;
-    align-items: flex-end !important;
+    align-items: center;
   }
 }
 

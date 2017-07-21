@@ -71,9 +71,9 @@
       height: 48px;
 
       &:hover {
-        background-color: $primary-color;
-        color: $btn-text;
-        border: 1px solid #ffffff;
+
+        color: darken($primary-color, 10%);
+        
       }
     }
   }
