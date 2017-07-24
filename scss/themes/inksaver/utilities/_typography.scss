@@ -1,7 +1,18 @@
 // Font Smoothing
 html{
+  -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
+}
+
+
+@font-face {
+  font-family: 'ProximaLight';
+  src: url('../../../fonts/ProximaNova-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../../fonts/ProximaNova-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../../fonts/ProximaNova-Light.svg#ProximaLight') format('svg'); /* Legacy iOS */
+       font-weight: normal;
+       font-style: normal;
 }
 
 @font-face {
