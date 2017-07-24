@@ -27,8 +27,10 @@
       .filter-keyword-field .btn {
         background-color: $secondary-color;
         height: 44px;
+        transition: 0.2s;
         &:hover {
           background-color: #9e0759;
+          transition: 0.3s;
         }
       }
     }
@@ -43,11 +45,15 @@
           line-height: 3.29;
 
           a {
+            transition: 0.2s;
+
             &:hover {
               color: $secondary-color;
+              transition: 0.3s;
 
               .filter-badge {
                 color: $secondary-color;
+                transition: 0.3s;
               }
             }
 
@@ -55,6 +61,7 @@
               background: #ffffff;
               color: $gray-text-dark;
               font-size: 13px;
+              transition: 0.2s;
             }
           }
         }

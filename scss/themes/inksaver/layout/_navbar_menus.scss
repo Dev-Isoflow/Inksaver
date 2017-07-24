@@ -44,6 +44,7 @@
     border: solid 2px $primary-color;
     padding-left: 10px;
     padding-right: 10px;
+    transition: 0.2s;
 
     i {
       padding-left: 5px;
@@ -52,6 +53,7 @@
     &:hover {
       background-color: $primary-color;
       color: $btn-text;
+      transition: 0.3s;
     }
   }
 }

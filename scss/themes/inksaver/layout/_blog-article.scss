@@ -147,11 +147,12 @@
       align-items: center;
       margin-bottom: 14px;
       margin-right: 5px;
-      transition: all .3s;
+      transition: .2s;
 
       &:hover {
         background-color: darken(#f5f5f5, 10%);
         color: $link-hover-text-color;
+        transition: .3s;
       }
 
       .tag-num {
@@ -200,9 +201,11 @@
       line-height: 2.38;
       color: $gray-text-medium;
       padding: 1px 0;
+      transition: 0.2s;
 
       &:hover {
         color: $primary-color;
+        transition: 0.3s;
       }
 
       .archive-num {

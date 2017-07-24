@@ -48,9 +48,11 @@
       a div {
         padding: 16px 25px 17px;
         background-color: $secondary-color;
+        transition: 0.2s;
 
         &:hover {
           background-color: #9e0759;
+          transition: 0.3s;
         }
 
         p {

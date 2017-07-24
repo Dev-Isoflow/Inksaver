@@ -10,9 +10,11 @@
 
     .btn {
       background-color: $gray-dark;
+      transition: 0.2s;
 
       &:hover {
         background-color: #000000;
+        transition: 0.3s;
       }
     }
   }

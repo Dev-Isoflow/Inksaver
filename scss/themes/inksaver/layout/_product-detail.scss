@@ -179,9 +179,11 @@
     background-color: $gray-dark;
     border: solid 1px $gray-dark;
     color: $btn-text;
+    transition: 0.2s;
 
     &:hover {
       background-color: #000000;
+      transition: 0.3s;
     }
 
     i {
@@ -261,6 +263,11 @@
         font-size: 25px;
         bottom: 0 !important;
         margin-right: 29px;
+        transition: 0.2s;
+
+        &:hover {
+          transition: 0.3s;
+        }
 
         &.fa-envelope:hover {
           color: $primary-color !important;
